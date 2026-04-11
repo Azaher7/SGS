@@ -10,28 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function(user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function() {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-
-    
-    if (window.location.hash && (
-      window.location.hash.includes("invite_token") ||
-      window.location.hash.includes("confirmation_token") ||
-      window.location.hash.includes("recovery_token")
-    )) {
-      window.netlifyIdentity.open();
-    }
-  }
-</script>
 <body data-page="home">
   <header class="site-header">
     <div class="container nav-bar">
@@ -308,5 +287,27 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+
+    
+    if (window.location.hash && (
+      window.location.hash.includes("invite_token") ||
+      window.location.hash.includes("confirmation_token") ||
+      window.location.hash.includes("recovery_token")
+    )) {
+      window.netlifyIdentity.open();
+    }
+  }
+</script>
 </body>
 </html>
