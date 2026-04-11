@@ -13,7 +13,15 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Hero Title", name: "hero_title", widget: "string" }
-          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "text" }
-          - { label: "About Title", name: "about_title", widget: "string" }
-          - { label: "About Text", name: "about_text", widget: "text" }
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+          - label: "Hero Subtitle"
+            name: "hero_subtitle"
+            widget: "text"
+          - label: "About Title"
+            name: "about_title"
+            widget: "string"
+          - label: "About Text"
+            name: "about_text"
+            widget: "text"
