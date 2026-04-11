@@ -7,21 +7,305 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "site"
-    label: "Site Content"
+    label: "Website Content"
     files:
+      - file: "content/global.json"
+        label: "Global Site Content"
+        name: "global"
+        fields:
+          - label: "Brand"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Badge Text", name: "badge", widget: "string" }
+              - { label: "Brand Label", name: "label", widget: "string" }
+          - label: "Header Navigation"
+            name: "navigation"
+            widget: "object"
+            fields:
+              - label: "Menu Items"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.label}} → {{fields.href}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+              - label: "Header CTA"
+                name: "cta"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Pages Column Title", name: "pages_title", widget: "string" }
+              - label: "Pages Links"
+                name: "pages_links"
+                widget: "list"
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+              - { label: "Focus Column Title", name: "focus_title", widget: "string" }
+              - { label: "Focus Items", name: "focus_items", widget: "list", field: { label: "Item", name: "item", widget: "string" } }
+              - { label: "Contact Column Title", name: "contact_title", widget: "string" }
+              - { label: "Contact Lines", name: "contact_lines", widget: "list", field: { label: "Line", name: "line", widget: "string" } }
+              - { label: "Contact Link Label", name: "contact_link_label", widget: "string" }
+              - { label: "Contact Link", name: "contact_link_href", widget: "string" }
+              - { label: "Copyright Text", name: "copyright_text", widget: "string" }
+
       - file: "content/home.json"
         label: "Home Page"
         name: "home"
         fields:
-          - label: "Hero Title"
-            name: "hero_title"
-            widget: "string"
-          - label: "Hero Subtitle"
-            name: "hero_subtitle"
-            widget: "text"
-          - label: "About Title"
-            name: "about_title"
-            widget: "string"
-          - label: "About Text"
-            name: "about_text"
-            widget: "text"
+          - label: "SEO"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Meta Description", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Background Image", name: "image_url", widget: "image" }
+              - { label: "Background Alt Text", name: "image_alt", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - label: "Buttons"
+                name: "actions"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Value", name: "value", widget: "string" }
+                  - { label: "Text", name: "text", widget: "string" }
+          - label: "Credibility Band"
+            name: "credibility"
+            widget: "object"
+            fields:
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" } }
+          - label: "About Intro"
+            name: "about_intro"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Link Label", name: "link_label", widget: "string" }
+              - { label: "Link", name: "link_href", widget: "string" }
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "url", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Services Section"
+            name: "services_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Service Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+                  - { label: "Highlight Card", name: "highlight", widget: "boolean", required: false }
+          - label: "Solutions Section"
+            name: "solutions_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Solution Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+                  - { label: "Image", name: "image_url", widget: "image" }
+                  - { label: "Image Alt", name: "image_alt", widget: "string" }
+                  - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
+          - label: "Projects Section"
+            name: "projects_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Project Tiles"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Image", name: "image_url", widget: "image" }
+                  - { label: "Image Alt", name: "image_alt", widget: "string" }
+                  - { label: "Large Tile", name: "large", widget: "boolean", required: false }
+          - label: "Presence Section"
+            name: "presence_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - label: "Presence Points"
+                name: "points"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "string" }
+          - label: "Why Choose Section"
+            name: "why_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Button Label", name: "button_label", widget: "string" }
+              - { label: "Button Link", name: "button_href", widget: "string" }
+
+      - file: "content/about.json"
+        label: "About Page"
+        name: "about"
+        fields:
+          - label: "SEO"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Meta Description", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Image", name: "image_url", widget: "image" }
+              - { label: "Image Alt", name: "image_alt", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }] }
+          - label: "Mission/Vision/Approach"
+            name: "pillars"
+            widget: "list"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+          - { label: "Market Focus", name: "market_focus", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
+          - label: "Why Section"
+            name: "why_section"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+          - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
+
+      - file: "content/services.json"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
+          - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
+          - label: "Service Panels"
+            name: "service_panels"
+            widget: "list"
+            fields:
+              - { label: "Number", name: "number", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Bullets", name: "bullets", widget: "list", field: { label: "Bullet", name: "bullet", widget: "string" } }
+              - { label: "Featured", name: "featured", widget: "boolean", required: false }
+          - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
+
+      - file: "content/solutions.json"
+        label: "Solutions Page"
+        name: "solutions"
+        fields:
+          - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
+          - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
+          - label: "Solution Rows"
+            name: "solutions"
+            widget: "list"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Image", name: "image_url", widget: "image" }
+              - { label: "Image Alt", name: "image_alt", widget: "string" }
+              - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
+          - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
+
+      - file: "content/projects.json"
+        label: "Projects Page"
+        name: "projects"
+        fields:
+          - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
+          - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
+          - label: "Project Stories"
+            name: "stories"
+            widget: "list"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Image", name: "image_url", widget: "image" }
+              - { label: "Image Alt", name: "image_alt", widget: "string" }
+              - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
+          - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
+
+      - file: "content/contact.json"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
+          - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
+          - label: "Form Content"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Fields"
+                name: "fields"
+                widget: "object"
+                fields:
+                  - { label: "Name", name: "name", widget: "object", fields: [{ label: "Label", name: "label", widget: "string" }, { label: "Placeholder", name: "placeholder", widget: "string" }] }
+                  - { label: "Company", name: "company", widget: "object", fields: [{ label: "Label", name: "label", widget: "string" }, { label: "Placeholder", name: "placeholder", widget: "string" }] }
+                  - { label: "Email", name: "email", widget: "object", fields: [{ label: "Label", name: "label", widget: "string" }, { label: "Placeholder", name: "placeholder", widget: "string" }] }
+                  - { label: "Project Focus", name: "focus", widget: "object", fields: [{ label: "Label", name: "label", widget: "string" }, { label: "Options", name: "options", widget: "list", field: { label: "Option", name: "option", widget: "string" } }] }
+                  - { label: "Brief", name: "brief", widget: "object", fields: [{ label: "Label", name: "label", widget: "string" }, { label: "Placeholder", name: "placeholder", widget: "string" }] }
+              - { label: "Submit Button", name: "submit_label", widget: "string" }
+              - { label: "Feedback Text", name: "feedback_text", widget: "text" }
+          - label: "Contact Info Cards"
+            name: "info_cards"
+            widget: "list"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title (optional)", name: "title", widget: "string", required: false }
+              - { label: "Text", name: "text", widget: "text" }
