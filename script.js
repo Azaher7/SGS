@@ -58,3 +58,20 @@ if (contactForm) {
     }
   });
 }
+
+fetch("content/home.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const heroTitle = document.getElementById("hero-title");
+    const heroSubtitle = document.getElementById("hero-subtitle");
+    const aboutTitle = document.getElementById("about-title");
+    const aboutText = document.getElementById("about-text");
+
+    if (heroTitle) heroTitle.textContent = data.hero_title || "";
+    if (heroSubtitle) heroSubtitle.textContent = data.hero_subtitle || "";
+    if (aboutTitle) aboutTitle.textContent = data.about_title || "";
+    if (aboutText) aboutText.textContent = data.about_text || "";
+  })
+  .catch((error) => {
+    console.error("Failed to load CMS content:", error);
+  });
