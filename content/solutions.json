@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Solutions | SGS",
+    "description": "Technical SGS solutions across solar and renewable systems, utility infrastructure, water treatment, wastewater, desalination, and industrial support."
+  },
+  "hero": {
+    "kicker": "Solutions",
+    "title": "Technical sectors presented with more visual depth.",
+    "text": "Short, clear sector positioning backed by stronger imagery and cleaner layouts.",
+    "image_url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1800&q=80",
+    "image_alt": "Industrial energy infrastructure"
+  },
+  "solutions": [
+    {
+      "kicker": "Solar & Renewable Energy Systems",
+      "title": "Clean power systems built for real market conditions.",
+      "text": "SGS supports photovoltaic, utility-scale solar, and broader renewable system planning with a consulting-first lens.",
+      "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Solar infrastructure site"
+    },
+    {
+      "kicker": "Utility-Scale Clean Infrastructure",
+      "title": "Integrated project support for complex infrastructure delivery.",
+      "text": "Energy, engineering, procurement, and implementation planning aligned inside one framework.",
+      "image_url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Utility-scale infrastructure project",
+      "reverse": true
+    },
+    {
+      "kicker": "Water Treatment",
+      "title": "Utility systems that support resilience and resource quality.",
+      "text": "Treatment and purification pathways for industrial, municipal, and specialized use cases.",
+      "image_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Water treatment tanks"
+    },
+    {
+      "kicker": "Wastewater Systems",
+      "title": "Recycling and treatment strategies with operational practicality.",
+      "text": "Support for wastewater treatment, recovery, sludge handling, and related infrastructure planning.",
+      "image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Wastewater and sustainability infrastructure",
+      "reverse": true
+    },
+    {
+      "kicker": "Desalination & Reverse Osmosis",
+      "title": "High-value water security solutions for demanding environments.",
+      "text": "RO, desalination, and water production planning supported by technical coordination and sourcing insight.",
+      "image_url": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Desalination facility"
+    },
+    {
+      "kicker": "Sustainable Industrial Infrastructure",
+      "title": "Technical support where utility performance and industrial delivery meet.",
+      "text": "SGS helps connect specialized technology, procurement, and stakeholder coordination in active industrial programs.",
+      "image_url": "https://images.unsplash.com/photo-1581092919535-7146ff1a590d?auto=format&fit=crop&w=1400&q=80",
+      "image_alt": "Industrial technical facility",
+      "reverse": true
+    }
+  ],
+  "cta": {
+    "kicker": "Solution Planning",
+    "title": "Choose the right pathway for your infrastructure program.",
+    "button_label": "Request a Consultation",
+    "button_href": "contact.html"
+  }
+}

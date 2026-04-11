@@ -1,6 +1,117 @@
 {
-  "hero_title": "Powering Sustainable Progression",
-  "hero_subtitle": "International consulting for renewable energy and infrastructure projects.",
-  "about_title": "About SGS",
-  "about_text": "We support clients with reliable consulting, operational support, and project expertise."
+  "meta": {
+    "title": "SGS | Renewable Energy Consulting",
+    "description": "SGS is an international renewable energy consulting and project development firm serving GCC, MENA, and global sustainable infrastructure markets."
+  },
+  "hero": {
+    "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
+    "image_alt": "Large solar farm",
+    "title": "Powering Sustainable Progression",
+    "subtitle": "International consulting for renewable energy and infrastructure projects.",
+    "actions": [
+      { "label": "Our Services", "href": "services.html" },
+      { "label": "Featured Projects", "href": "projects.html" }
+    ],
+    "stats": [
+      { "value": "2015", "text": "Established to address regional energy and water demand" },
+      { "value": "20+", "text": "Specialized technology vendor relationships across target markets" },
+      { "value": "GCC / MENA", "text": "Project development, procurement, and partnership support" }
+    ]
+  },
+  "credibility": {
+    "summary": "Renewable energy first. Water, desalination, and infrastructure expertise built in.",
+    "tags": ["Solar advisory", "Project development", "JV / PPP facilitation", "Technical coordination"]
+  },
+  "about_intro": {
+    "title": "About SGS",
+    "text": "We support clients with reliable consulting, operational support, and project expertise.",
+    "link_label": "Learn more about SGS",
+    "link_href": "about.html",
+    "images": [
+      { "url": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80", "alt": "Renewable energy infrastructure" },
+      { "url": "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=900&q=80", "alt": "Infrastructure planning environment" }
+    ]
+  },
+  "services_section": {
+    "kicker": "Services",
+    "title": "Clear services. Consulting-led delivery.",
+    "cards": [
+      { "title": "Renewable Energy Consulting", "text": "Market-ready advisory for solar and clean infrastructure projects.", "highlight": true },
+      { "title": "Project Development", "text": "From concept framing to partnership and execution planning." },
+      { "title": "Water & Wastewater", "text": "Integrated support for treatment, recovery, and utility systems." },
+      { "title": "Desalination & RO", "text": "Technical advisory for reverse osmosis and plant strategy." }
+    ]
+  },
+  "solutions_section": {
+    "kicker": "Solutions",
+    "title": "Built for complex infrastructure environments.",
+    "rows": [
+      {
+        "type": "Solar & Renewable Energy",
+        "title": "Utility-scale solar pathways with commercial and technical clarity.",
+        "text": "SGS supports technology sourcing, partner alignment, and project structuring for clean energy delivery.",
+        "image_url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Solar panels in desert"
+      },
+      {
+        "type": "Water, Wastewater & Desalination",
+        "title": "Technical systems designed for resilience and long-term performance.",
+        "text": "From treatment to RO and desalination, SGS helps shape sustainable utility solutions for demanding environments.",
+        "image_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Water treatment infrastructure",
+        "reverse": true
+      }
+    ]
+  },
+  "projects_section": {
+    "kicker": "Projects",
+    "title": "Image-led project stories with regional credibility.",
+    "items": [
+      {
+        "kicker": "GCC Solar Advisory",
+        "title": "Utility-scale solar development support for a high-growth regional program.",
+        "image_url": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Solar plant project",
+        "large": true
+      },
+      {
+        "kicker": "Hybrid Infrastructure",
+        "title": "Water-energy project coordination.",
+        "image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1000&q=80",
+        "image_alt": "Hybrid water energy infrastructure"
+      },
+      {
+        "kicker": "Industrial Support",
+        "title": "Technical partner and vendor alignment.",
+        "image_url": "https://images.unsplash.com/photo-1581092919535-7146ff1a590d?auto=format&fit=crop&w=1000&q=80",
+        "image_alt": "Industrial technical support project"
+      }
+    ]
+  },
+  "presence_section": {
+    "kicker": "International Presence",
+    "title": "Regional execution. International reach.",
+    "text": "SGS works across GCC and MENA while connecting clients to international suppliers, specialized vendors, and technical partners across Europe and Asia Pacific.",
+    "points": [
+      { "title": "Regional focus", "text": "GCC and MENA infrastructure markets" },
+      { "title": "Partnership model", "text": "JV, consortium, and PPP support" },
+      { "title": "Delivery support", "text": "Procurement, coordination, and O&M planning" }
+    ]
+  },
+  "why_section": {
+    "kicker": "Why Choose SGS",
+    "title": "Built for serious infrastructure decisions.",
+    "cards": [
+      { "title": "Consulting-first", "text": "SGS leads with strategy, not contractor messaging." },
+      { "title": "Renewable-led", "text": "Solar and clean infrastructure shape the core offer." },
+      { "title": "Technically grounded", "text": "Water, RO, wastewater, and EPC support remain built in." },
+      { "title": "Cross-border capable", "text": "Strong partner and vendor coordination across markets." }
+    ]
+  },
+  "cta": {
+    "kicker": "Start a Conversation",
+    "title": "Shape your next renewable infrastructure project with confidence.",
+    "button_label": "Request a Consultation",
+    "button_href": "contact.html"
+  }
 }

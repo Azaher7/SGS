@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "badge": "SGS",
+    "label": "Sustainable Green Solutions International LLC"
+  },
+  "navigation": {
+    "items": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "About", "href": "about.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Solutions", "href": "solutions.html" },
+      { "label": "Projects", "href": "projects.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "cta": { "label": "Request a Consultation", "href": "contact.html" }
+  },
+  "footer": {
+    "description": "International renewable energy consulting, project development, and sustainable infrastructure advisory.",
+    "pages_title": "Pages",
+    "pages_links": [
+      { "label": "About", "href": "about.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Solutions", "href": "solutions.html" },
+      { "label": "Projects", "href": "projects.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "focus_title": "Focus",
+    "focus_items": [
+      "Renewable energy",
+      "Solar infrastructure",
+      "Water and desalination",
+      "Partnership facilitation"
+    ],
+    "contact_title": "Contact",
+    "contact_lines": [
+      "Project consultations by appointment",
+      "GCC, MENA, and international markets"
+    ],
+    "contact_link_label": "Send an inquiry",
+    "contact_link_href": "contact.html",
+    "copyright_text": "© SGS International LLC. All rights reserved."
+  }
+}
