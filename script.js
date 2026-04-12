@@ -31,12 +31,35 @@ const escapeHtml = (value = "") =>
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
 
+const initialsFromName = (name = "") => {
+  const parts = String(name).trim().split(/\s+/).filter(Boolean);
+  if (!parts.length) return "SG";
+  return parts.slice(0, 2).map((part) => part[0]?.toUpperCase() || "").join("");
+};
+
+const createPlaceholderAvatar = (name = "SGS Team") => {
+  const initials = initialsFromName(name);
+  return `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1f6b7a"/><stop offset="100%" stop-color="#c28a4b"/></linearGradient></defs><rect width="120" height="120" rx="18" fill="url(#g)"/><text x="50%" y="56%" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="white">${initials}</text></svg>` )}`;
+};
+
+const withImageFallback = () => {
+  document.querySelectorAll("img").forEach((img) => {
+    if (img.dataset.fallbackBound === "true") return;
+    img.dataset.fallbackBound = "true";
+    img.addEventListener("error", () => {
+      const altText = img.getAttribute("alt") || "SGS visual";
+      img.src = createPlaceholderAvatar(altText);
+    });
+  });
+};
+
 const renderList = (selector, items, renderItem) => {
   const container = document.querySelector(selector);
   if (!container || !Array.isArray(items) || !items.length) return;
   container.innerHTML = items.map((item, index) => renderItem(item, index)).join("\n");
   revealItems = document.querySelectorAll(".reveal");
   initReveal();
+  withImageFallback();
 };
 
 const initReveal = () => {
@@ -269,6 +292,40 @@ const applyAbout = (data) => {
     </article>
   `);
 
+  const team = data?.team || {};
+  setText(".team-intro .kicker", team?.kicker);
+  setText(".team-intro h2", team?.title);
+  const groups = {
+    leadership: team?.leadership,
+    management: team?.management,
+    advisors: team?.advisors,
+    founders: team?.founders
+  };
+
+  Object.entries(groups).forEach(([group, members]) => {
+    renderList(`[data-team-group="${group}"]`, members, (member) => {
+      const imageUrl = escapeHtml(member?.image_url || "");
+      const linkedIn = escapeHtml(member?.linkedin || "#");
+      const name = escapeHtml(member?.name || "Team Member");
+      const role = escapeHtml(member?.role || "Role");
+      const summary = escapeHtml(member?.summary || "Profile details coming soon.");
+      const imageAlt = escapeHtml(member?.image_alt || `${member?.name || "Team member"} portrait`);
+      return `
+        <article class="team-card reveal">
+          <img class="team-photo" src="${imageUrl}" alt="${imageAlt}">
+          <div class="team-meta">
+            <h3>${name}</h3>
+            <p class="team-role">${role}</p>
+            <p>${summary}</p>
+          </div>
+          <a class="linkedin-link" href="${linkedIn}" aria-label="LinkedIn profile for ${name}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+        </article>
+      `;
+    });
+  });
+
   setText(".cta-layout .kicker", data?.cta?.kicker);
   setText(".cta-layout h2", data?.cta?.title);
   setText(".cta-layout .button", data?.cta?.button_label);
@@ -402,6 +459,7 @@ if (navToggle && siteNav) {
 }
 
 initReveal();
+withImageFallback();
 
 if (yearTarget) {
   yearTarget.textContent = new Date().getFullYear();
@@ -455,4 +513,5 @@ const fetchJson = async (path) => {
 
   const handler = pageHandlers[page];
   if (handler) handler(pageData);
+  withImageFallback();
 })();

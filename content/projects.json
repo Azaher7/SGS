@@ -5,8 +5,8 @@
   },
   "hero": {
     "kicker": "Projects",
-    "title": "Large, visual, and technically credible project stories.",
-    "text": "These project examples reflect the kind of strategic and technical work SGS supports across regional and international markets.",
+    "title": "Project stories from the field.",
+    "text": "These examples show how we support clients from early strategy through delivery coordination.",
     "image_url": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Energy infrastructure landscape"
   },
@@ -51,7 +51,7 @@
   ],
   "cta": {
     "kicker": "Project Discussions",
-    "title": "Talk to SGS about your next regional infrastructure opportunity.",
+    "title": "Talk with us about your next opportunity.",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }
