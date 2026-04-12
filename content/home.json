@@ -1,7 +1,7 @@
 {
   "projects_section": {
     "kicker": "Projects",
-    "title": "Projects that show our approach.",
+    "title": "Image-led project stories with regional credibility.",
     "items": [
       {
         "kicker": "GCC Solar Advisory",
@@ -26,7 +26,7 @@
   },
   "solutions_section": {
     "kicker": "Solutions",
-    "title": "Solutions for complex infrastructure.",
+    "title": "Built for complex infrastructure environments.",
     "rows": [
       {
         "type": "Solar & Renewable Energy",
@@ -66,7 +66,7 @@
   },
   "services_section": {
     "kicker": "Services",
-    "title": "Services that move your project forward.",
+    "title": "Clear services. Consulting-led delivery.",
     "cards": [
       {
         "title": "Renewable Energy Consulting",
@@ -102,7 +102,7 @@
   },
   "why_section": {
     "kicker": "Why Choose SGS",
-    "title": "A partner you can rely on.",
+    "title": "Built for serious infrastructure decisions.",
     "cards": [
       {
         "title": "Consulting-first",
@@ -124,13 +124,13 @@
   },
   "cta": {
     "kicker": "Start a Conversation",
-    "title": "Let’s shape your next infrastructure decision together.",
+    "title": "Shape your next renewable infrastructure project with confidence.",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   },
   "about_intro": {
     "title": "About SGS",
-    "text": "We work alongside your team to align strategy, technical choices, and delivery priorities.",
+    "text": "We support clients with reliable consulting, operational support, and project expertise.",
     "link_label": "Learn more about SGS",
     "link_href": "about.html",
     "images": [
@@ -147,8 +147,8 @@
   "hero": {
     "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Large solar farm",
-    "title": "Plan with confidence.",
-    "subtitle": "We help you shape renewable energy and water projects with clear strategy and practical delivery support.",
+    "title": "Powering Sustainable Progress",
+    "subtitle": "International consulting for renewable energy and infrastructure projects.",
     "actions": [
       {
         "label": "Our Services",
