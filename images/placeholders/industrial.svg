@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Industrial Infrastructure Image Placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Industrial Delivery">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e7ecea"/>
-      <stop offset="100%" stop-color="#d9e2df"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2f2a"/>
+      <stop offset="100%" stop-color="#1d4f46"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f6f5" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dce6e3" stop-opacity="0.92"/>
     </linearGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#g)"/>
-  <rect x="120" y="120" width="1360" height="760" rx="28" fill="none" stroke="#8a9a94" stroke-width="8" stroke-dasharray="18 14"/>
-  <text x="800" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" fill="#30443d">Industrial Infrastructure Image Placeholder</text>
-  <text x="800" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#4f625b">Replace from CMS Admin Panel</text>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1320" cy="180" r="220" fill="#96b88f" fill-opacity="0.22"/>
+  <circle cx="250" cy="820" r="270" fill="#96b88f" fill-opacity="0.16"/>
+  <rect x="120" y="130" width="1360" height="740" rx="34" fill="url(#panel)"/>
+  <rect x="190" y="210" width="1220" height="420" rx="24" fill="#ffffff" fill-opacity="0.72"/>
+  <rect x="190" y="670" width="580" height="120" rx="20" fill="#ffffff" fill-opacity="0.58"/>
+  <rect x="820" y="670" width="590" height="120" rx="20" fill="#ffffff" fill-opacity="0.58"/>
+  <text x="250" y="775" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#12322c">Industrial Delivery</text>
+  <text x="250" y="825" font-family="Inter, Arial, sans-serif" font-size="30" fill="#33514a">EPC and operations coordination</text>
 </svg>

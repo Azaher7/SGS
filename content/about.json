@@ -83,14 +83,6 @@
         "image_url": "images/placeholders/team-member-2.svg",
         "image_alt": "Team member placeholder upload image in CMS",
         "linkedin_url": "https://www.linkedin.com/"
-      },
-      {
-        "name": "David Nasser",
-        "role": "Technical Advisory Lead",
-        "summary": "David supports technical programs in solar water and desalination to keep decisions coordinated",
-        "image_url": "images/placeholders/team-member-3.svg",
-        "image_alt": "Team member placeholder upload image in CMS",
-        "linkedin_url": "https://www.linkedin.com/"
       }
     ]
   }
