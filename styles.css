@@ -1031,10 +1031,10 @@ body[data-page="about"] .page-hero-layout .reveal h1 + p {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 22rem));
+  grid-template-columns: repeat(2, minmax(0, 28rem));
   justify-content: center;
   gap: 2rem;
-  max-width: 50rem;
+  max-width: 62rem;
   margin: 0 auto;
 }
 
@@ -1049,18 +1049,19 @@ body[data-page="about"] .page-hero-layout .reveal h1 + p {
 }
 
 .team-photo {
-  width: 13rem;
-  height: 13rem;
-  border-radius: 1.6rem;
+  width: 100%;
+  max-width: 24rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.6rem;
+  margin: 0 auto 1.8rem;
   background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
   color: var(--white);
   font-family: "Outfit", sans-serif;
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 5rem;
   letter-spacing: 0.04em;
   overflow: hidden;
 }
@@ -1128,7 +1129,12 @@ body[data-page="about"] .page-hero-layout .reveal h1 + p {
 
 @media (max-width: 860px) {
   .team-grid {
-    grid-template-columns: minmax(0, 22rem);
+    grid-template-columns: minmax(0, 28rem);
+    max-width: 28rem;
+  }
+
+  .team-photo {
     max-width: 22rem;
+    font-size: 4.4rem;
   }
 }
