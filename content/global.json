@@ -15,7 +15,7 @@
     "cta": { "label": "Request a Consultation", "href": "contact.html" }
   },
   "footer": {
-    "description": "International renewable energy consulting, project development, and sustainable infrastructure advisory.",
+    "description": "We are your consulting partner for renewable energy, water strategy, and sustainable infrastructure delivery.",
     "pages_title": "Pages",
     "pages_links": [
       { "label": "About", "href": "about.html" },
@@ -33,8 +33,8 @@
     ],
     "contact_title": "Contact",
     "contact_lines": [
-      "Project consultations by appointment",
-      "GCC, MENA, and international markets"
+      "Consultations by appointment",
+      "Serving GCC, MENA, and international markets"
     ],
     "contact_link_label": "Send an inquiry",
     "contact_link_href": "contact.html",
