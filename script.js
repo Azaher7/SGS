@@ -239,9 +239,55 @@ const applyPageHero = (data) => {
   setText(".page-hero-layout p:last-child", data.hero.text);
 };
 
+const getInitials = (name = "") =>
+  String(name)
+    .trim()
+    .split(/\s+/)
+    .map((part) => part.charAt(0).toUpperCase())
+    .slice(0, 2)
+    .join("");
+
+const linkedinSvg = `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>`;
+
+const applyTeam = (team) => {
+  const section = document.querySelector(".team-section");
+  if (!section || !team) return;
+
+  setText(section.querySelector(".section-head .kicker"), team.kicker);
+  setText(section.querySelector(".section-head h2"), team.title);
+  setText(section.querySelector(".team-intro"), team.intro);
+
+  const members = Array.isArray(team.members) ? team.members : [];
+  if (!members.length) return;
+
+  renderList(".team-grid", members, (member) => {
+    const name = member?.name || "";
+    const role = member?.role || "";
+    const description = member?.description || "";
+    const linkedin = member?.linkedin || "";
+    const imageUrl = member?.image_url || "";
+    const photo = imageUrl
+      ? `<figure class="team-photo"><img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(name)}"></figure>`
+      : `<figure class="team-photo" aria-hidden="true"><span>${escapeHtml(getInitials(name))}</span></figure>`;
+    const linkedinLink = linkedin
+      ? `<a class="team-linkedin" href="${escapeHtml(linkedin)}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile of ${escapeHtml(name)}">${linkedinSvg}</a>`
+      : "";
+    return `
+      <article class="team-card reveal">
+        ${photo}
+        ${linkedinLink}
+        <h3>${escapeHtml(name)}</h3>
+        <p class="team-role">${escapeHtml(role)}</p>
+        <p class="team-description">${escapeHtml(description)}</p>
+      </article>
+    `;
+  });
+};
+
 const applyAbout = (data) => {
   if (!data) return;
   applyPageHero(data);
+  applyTeam(data?.team);
   setText(".narrow-text .kicker", data?.intro?.kicker);
   setText(".narrow-text h2", data?.intro?.title);
   setText(".narrow-text p:last-child", data?.intro?.text);

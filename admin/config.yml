@@ -205,6 +205,24 @@ collections:
               - { label: "Image", name: "image_url", widget: "image" }
               - { label: "Image Alt", name: "image_alt", widget: "string" }
           - { label: "Intro", name: "intro", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }] }
+          - label: "Team Section"
+            name: "team"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Intro", name: "intro", widget: "text", required: false }
+              - label: "Team Members"
+                name: "members"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { label: "Full Name", name: "name", widget: "string" }
+                  - { label: "Title / Role", name: "role", widget: "string" }
+                  - { label: "Short Bio", name: "description", widget: "text" }
+                  - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+                  - { label: "Photo (optional)", name: "image_url", widget: "image", required: false }
           - label: "Mission/Vision/Approach"
             name: "pillars"
             widget: "list"
