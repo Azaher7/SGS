@@ -987,3 +987,115 @@ p {
     padding: 1.4rem;
   }
 }
+
+/* Spacing between page header and the paragraph below */
+.hero-copy h1,
+.page-hero-layout h1 {
+  margin-bottom: 1.6rem;
+}
+
+.hero-copy h1 + p,
+.hero-copy h1 + .hero-summary,
+.page-hero-layout h1 + p,
+.page-hero-layout .reveal h1 + p {
+  margin-top: 0;
+  padding-top: 0.4rem;
+}
+
+/* Team section */
+.team-section .section-head {
+  max-width: 42rem;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.team-section .team-intro {
+  color: rgba(8, 18, 16, 0.72);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 22rem));
+  justify-content: center;
+  gap: 2rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.team-card {
+  position: relative;
+  padding: 2rem;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(8, 18, 16, 0.08);
+  box-shadow: 0 18px 40px -30px rgba(8, 18, 16, 0.25);
+  text-align: left;
+}
+
+.team-photo {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 1.1rem;
+  background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
+  color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+}
+
+.team-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.85rem;
+  background: rgba(15, 96, 79, 0.1);
+  color: var(--green-deep);
+  transition: background 200ms ease, color 200ms ease;
+}
+
+.team-linkedin:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+.team-linkedin svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.team-card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.2rem;
+}
+
+.team-role {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: var(--sand);
+  margin: 0 0 0.9rem;
+}
+
+.team-description {
+  color: rgba(8, 18, 16, 0.72);
+  font-size: 0.97rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .team-grid {
+    grid-template-columns: minmax(0, 22rem);
+    max-width: 22rem;
+  }
+}

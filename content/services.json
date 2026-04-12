@@ -5,10 +5,10 @@
   },
   "hero": {
     "kicker": "Services",
-    "title": "Focused services for energy and infrastructure delivery.",
+    "title": "Energy and infrastructure services",
     "text": "Renewable energy sits first. Supporting technical services follow with equal clarity.",
-    "image_url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Engineering and project planning environment"
+    "image_url": "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1800&q=80",
+    "image_alt": "Close view of a solar photovoltaic panel installation"
   },
   "service_panels": [
     {
