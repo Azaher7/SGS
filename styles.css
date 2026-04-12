@@ -231,6 +231,12 @@ p {
   color: var(--text-soft);
 }
 
+h1 + p,
+h2 + p,
+h3 + p {
+  margin-top: 1.15rem;
+}
+
 .hero,
 .page-hero {
   position: relative;
@@ -684,7 +690,7 @@ p {
 }
 
 .team-card-body h3 {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
 }
 
 .team-role {
@@ -697,7 +703,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  margin-top: 1rem;
+  margin-bottom: 0.95rem;
   font-weight: 700;
 }
 
@@ -722,6 +728,24 @@ p {
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 18px 40px rgba(9, 23, 20, 0.06);
   transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.service-panel-side {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+}
+
+.service-panel-image {
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  min-height: 8.25rem;
+}
+
+.service-panel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .service-panel:hover {

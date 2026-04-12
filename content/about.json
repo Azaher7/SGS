@@ -5,20 +5,20 @@
   },
   "hero": {
     "kicker": "About SGS",
-    "title": "We help you plan clean energy and water projects.",
-    "text": "Since 2015, we have supported teams across MENA with practical guidance, trusted partners, and clear next steps.",
+    "title": "Clean energy and water advisory.",
+    "text": "Since 2015, SGS has supported teams across MENA with practical guidance, trusted partners, and clear next steps.",
     "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Large scale energy landscape"
   },
   "intro": {
     "kicker": "Who We Are",
-    "title": "We are your hands-on advisory team.",
-    "text": "We combine strategy, project planning, and technical coordination. Our role is to help you align people, partners, and delivery so your project moves forward with confidence."
+    "title": "Hands-on advisory leadership.",
+    "text": "SGS combines strategy, project planning, and technical coordination to align stakeholders and keep delivery on track."
   },
   "pillars": [
     {
       "kicker": "Mission",
-      "title": "Help you move clean infrastructure from idea to action."
+      "title": "Clean infrastructure from idea to action."
     },
     {
       "kicker": "Vision",
@@ -26,13 +26,13 @@
     },
     {
       "kicker": "Approach",
-      "title": "Work with us through open collaboration, trust, and practical partnerships."
+      "title": "Open collaboration, trust, and practical partnerships."
     }
   ],
   "market_focus": {
     "kicker": "Market Focus",
-    "title": "We focus on GCC and MENA with global support.",
-    "text": "We support local delivery while connecting you with international suppliers and specialists. This gives your team stronger options and clearer delivery paths.",
+    "title": "GCC and MENA focus. Global support.",
+    "text": "Local delivery stays connected to international suppliers and specialist partners for stronger options and clearer delivery paths.",
     "image_url": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1400&q=80",
     "image_alt": "Regional infrastructure and energy network"
   },
@@ -42,25 +42,25 @@
     "cards": [
       {
         "title": "Renewable energy leads",
-        "text": "Solar and clean infrastructure are at the center of our work."
+        "text": "Solar and clean infrastructure are at the center of the offer."
       },
       {
         "title": "Advisory mindset",
-        "text": "We help you shape projects, partnerships, and delivery pathways."
+        "text": "Projects, partnerships, and delivery pathways are structured with clarity."
       },
       {
         "title": "Technical credibility",
-        "text": "Our core strengths include water, desalination, wastewater, and EPC coordination."
+        "text": "Core strengths include water, desalination, wastewater, and EPC coordination."
       },
       {
         "title": "Long-term thinking",
-        "text": "We stay with you through execution, operations, and long-term continuity."
+        "text": "Execution support continues through operations and long-term continuity."
       }
     ]
   },
   "cta": {
     "kicker": "Work With SGS",
-    "title": "Work with us on your next renewable infrastructure decision.",
+    "title": "Renewable infrastructure decision support.",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

@@ -285,9 +285,12 @@ const applyServices = (data) => {
         <h2>${escapeHtml(item?.title || "")}</h2>
         <p>${escapeHtml(item?.text || "")}</p>
       </div>
-      <ul>
-        ${(item?.bullets || []).map((bullet) => `<li>${escapeHtml(bullet || "")}</li>`).join("")}
-      </ul>
+      <div class="service-panel-side">
+        ${item?.image_url ? `<div class="service-panel-image"><img src="${escapeHtml(item.image_url)}" alt="${escapeHtml(item?.image_alt || item?.title || "Service image")}"></div>` : ""}
+        <ul>
+          ${(item?.bullets || []).map((bullet) => `<li>${escapeHtml(bullet || "")}</li>`).join("")}
+        </ul>
+      </div>
     </article>
   `);
   setText(".cta-layout .kicker", data?.cta?.kicker);

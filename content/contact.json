@@ -12,11 +12,20 @@
   },
   "form": {
     "kicker": "Request a Consultation",
-    "title": "Tell us about your opportunity.",
+    "title": "Opportunity details.",
     "fields": {
-      "name": { "label": "Name", "placeholder": "Your name" },
-      "company": { "label": "Company", "placeholder": "Organization name" },
-      "email": { "label": "Email", "placeholder": "name@company.com" },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Organization name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@company.com"
+      },
       "focus": {
         "label": "Project Focus",
         "options": [
