@@ -66,7 +66,7 @@
   },
   "services_section": {
     "kicker": "Services",
-    "title": "Focused services for real project outcomes.",
+    "title": "Clear services. Consulting-led delivery.",
     "cards": [
       {
         "title": "Renewable Energy Consulting",
@@ -130,7 +130,7 @@
   },
   "about_intro": {
     "title": "About SGS",
-    "text": "We partner with your team to align strategy, technical choices, and delivery planning.",
+    "text": "We support clients with reliable consulting, operational support, and project expertise.",
     "link_label": "Learn more about SGS",
     "link_href": "about.html",
     "images": [
@@ -147,8 +147,8 @@
   "hero": {
     "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Large solar farm",
-    "title": "Confident Infrastructure Decisions",
-    "subtitle": "We help you plan and deliver renewable energy and water infrastructure with clarity.",
+    "title": "Powering Sustainable Progress",
+    "subtitle": "International consulting for renewable energy and infrastructure projects.",
     "actions": [
       {
         "label": "Our Services",
