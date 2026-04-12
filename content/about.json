@@ -5,10 +5,31 @@
   },
   "hero": {
     "kicker": "About SGS",
-    "title": "International advisory for energy, water, and sustainable infrastructure.",
+    "title": "International advisory for sustainable infrastructure",
     "text": "Founded in 2015, SGS was built to respond to growing water and energy demand in the MENA region with practical, modern, and partnership-driven solutions.",
     "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Large scale energy landscape"
+  },
+  "team": {
+    "kicker": "Leadership",
+    "title": "The people behind SGS",
+    "intro": "Senior advisors with hands-on experience across energy, water, engineering, and international project delivery.",
+    "members": [
+      {
+        "name": "Ali Shriem",
+        "role": "Founder and Managing Director",
+        "description": "Leads advisory engagements across renewable energy, water, and sustainable infrastructure. Focused on structuring long-term partnerships for clients in GCC and international markets.",
+        "linkedin": "https://www.linkedin.com/",
+        "image_url": ""
+      },
+      {
+        "name": "Mustafa Shriem",
+        "role": "Director of Project Development",
+        "description": "Oversees project development, EPC coordination, and vendor strategy. Works closely with utilities and industrial partners to move programs from concept through delivery.",
+        "linkedin": "https://www.linkedin.com/",
+        "image_url": ""
+      }
+    ]
   },
   "intro": {
     "kicker": "Who We Are",
