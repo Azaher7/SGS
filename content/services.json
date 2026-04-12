@@ -5,8 +5,8 @@
   },
   "hero": {
     "kicker": "Services",
-    "title": "Focused services for energy and infrastructure delivery.",
-    "text": "Renewable energy sits first. Supporting technical services follow with equal clarity.",
+    "title": "Services built around your goals.",
+    "text": "From strategy to execution planning, we help you make confident decisions at every stage.",
     "image_url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Engineering and project planning environment"
   },
@@ -15,55 +15,88 @@
       "number": "01",
       "title": "Renewable Energy Consulting & Project Development",
       "text": "Feasibility, planning, structuring, and development support for solar and clean infrastructure projects.",
-      "bullets": ["Project framing", "Technology advisory", "Partner alignment", "Market-ready positioning"],
+      "bullets": [
+        "Project framing",
+        "Technology advisory",
+        "Partner alignment",
+        "Market-ready positioning"
+      ],
       "featured": true
     },
     {
       "number": "02",
       "title": "Solar Infrastructure Advisory",
       "text": "Support for utility-scale solar, rooftop systems, and broader clean power integration.",
-      "bullets": ["PV and CSP pathways", "Procurement guidance", "Implementation coordination"]
+      "bullets": [
+        "PV and CSP pathways",
+        "Procurement guidance",
+        "Implementation coordination"
+      ]
     },
     {
       "number": "03",
       "title": "Water & Wastewater Solutions",
       "text": "Advisory for treatment, recycling, purification, and utility infrastructure systems.",
-      "bullets": ["Treatment planning", "Grey and black water systems", "Industrial wastewater support"]
+      "bullets": [
+        "Treatment planning",
+        "Grey and black water systems",
+        "Industrial wastewater support"
+      ]
     },
     {
       "number": "04",
       "title": "Desalination & Reverse Osmosis Advisory",
       "text": "Technical support for RO plants, desalination systems, and water production strategy.",
-      "bullets": ["RO planning", "Plant coordination", "Technology sourcing"]
+      "bullets": [
+        "RO planning",
+        "Plant coordination",
+        "Technology sourcing"
+      ]
     },
     {
       "number": "05",
       "title": "EPC Coordination",
       "text": "Interface support between engineering, procurement, construction, and specialist technologies.",
-      "bullets": ["Stakeholder coordination", "Delivery planning", "Execution support"]
+      "bullets": [
+        "Stakeholder coordination",
+        "Delivery planning",
+        "Execution support"
+      ]
     },
     {
       "number": "06",
       "title": "Operations & Maintenance Support",
       "text": "Operational planning for continuity, service quality, and lifecycle performance.",
-      "bullets": ["Operational readiness", "Support planning", "Performance continuity"]
+      "bullets": [
+        "Operational readiness",
+        "Support planning",
+        "Performance continuity"
+      ]
     },
     {
       "number": "07",
       "title": "JV / Consortium / PPP Facilitation",
       "text": "Support for fit-for-purpose partnerships in complex infrastructure programs.",
-      "bullets": ["JV structuring", "Consortium alignment", "PPP coordination"]
+      "bullets": [
+        "JV structuring",
+        "Consortium alignment",
+        "PPP coordination"
+      ]
     },
     {
       "number": "08",
       "title": "Procurement & Vendor Management",
       "text": "Cross-border supplier, subcontractor, and vendor coordination for specialized delivery scopes.",
-      "bullets": ["International sourcing", "Vendor management", "Commercial alignment"]
+      "bullets": [
+        "International sourcing",
+        "Vendor management",
+        "Commercial alignment"
+      ]
     }
   ],
   "cta": {
     "kicker": "Service Engagement",
-    "title": "Define the right scope for your next project.",
+    "title": "Tell us what your project needs next.",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

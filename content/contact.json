@@ -5,18 +5,27 @@
   },
   "hero": {
     "kicker": "Contact",
-    "title": "Start the next conversation.",
-    "text": "Share your project stage, market, and priority areas. SGS will respond with the right next step.",
+    "title": "Let’s discuss your project.",
+    "text": "Share your goals, timeline, and priorities, and we’ll come back with practical next steps.",
     "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Global infrastructure and connectivity image"
   },
   "form": {
     "kicker": "Request a Consultation",
-    "title": "Tell us about your opportunity.",
+    "title": "Tell us what you’re planning.",
     "fields": {
-      "name": { "label": "Name", "placeholder": "Your name" },
-      "company": { "label": "Company", "placeholder": "Organization name" },
-      "email": { "label": "Email", "placeholder": "name@company.com" },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Organization name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@company.com"
+      },
       "focus": {
         "label": "Project Focus",
         "options": [
@@ -34,13 +43,13 @@
       }
     },
     "submit_label": "Submit Inquiry",
-    "feedback_text": "Consultation requests are reviewed directly from this page submission."
+    "feedback_text": "We review each request carefully and reply with the right next step."
   },
   "info_cards": [
     {
       "kicker": "Company",
       "title": "Sustainable Green Solutions International LLC",
-      "text": "International renewable energy consulting and sustainable infrastructure advisory."
+      "text": "We are your consulting partner for renewable energy, water, and sustainable infrastructure."
     },
     {
       "kicker": "Markets",
@@ -48,7 +57,7 @@
     },
     {
       "kicker": "Core Areas",
-      "text": "Solar, renewable energy, water, desalination, procurement, and technical coordination."
+      "text": "Renewables, solar, water, desalination, procurement, and technical coordination."
     }
   ]
 }
