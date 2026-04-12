@@ -12,7 +12,7 @@
   },
   "form": {
     "kicker": "Request a Consultation",
-    "title": "Tell us about your opportunity.",
+    "title": "Tell us about your opportunity",
     "fields": {
       "name": { "label": "Name", "placeholder": "Your name" },
       "company": { "label": "Company", "placeholder": "Organization name" },
