@@ -1,45 +1,121 @@
 {
   "meta": {
     "title": "About SGS | International Clean Energy Advisory",
-    "description": "About SGS: an international renewable energy consulting, project development, and sustainable infrastructure advisory firm."
+    "description": "Meet SGS, your consulting partner for renewable energy, water strategy, and sustainable infrastructure delivery."
   },
   "hero": {
     "kicker": "About SGS",
-    "title": "International advisory for energy, water, and sustainable infrastructure.",
-    "text": "Founded in 2015, SGS was built to respond to growing water and energy demand in the MENA region with practical, modern, and partnership-driven solutions.",
+    "title": "Trusted guidance for complex infrastructure.",
+    "text": "Since 2015, we have helped public and private clients move energy and water projects forward with confidence, clarity, and practical execution planning.",
     "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Large scale energy landscape"
   },
   "intro": {
     "kicker": "Who We Are",
-    "title": "A consulting platform with technical depth.",
-    "text": "SGS combines strategic advisory, project development, and technology coordination. We work with clients who need more than supply. They need a partner who can structure the opportunity, align the right stakeholders, and support execution."
+    "title": "Experienced consultants, practical mindset.",
+    "text": "We combine strategic advisory with technical depth, so your team can make faster decisions, align stakeholders, and deliver with less risk."
   },
   "pillars": [
-    { "kicker": "Mission", "title": "Help clients move clean infrastructure from concept to action." },
-    { "kicker": "Vision", "title": "Advance renewable energy and sustainable utility systems across growth markets." },
-    { "kicker": "Approach", "title": "Open collaboration, trust, and fit-for-purpose project partnerships." }
+    { "kicker": "Mission", "title": "Help you turn sustainable infrastructure ideas into bankable projects." },
+    { "kicker": "Vision", "title": "Accelerate resilient energy and water systems across growth markets." },
+    { "kicker": "Approach", "title": "Work as one team with you—clear advice, transparent communication, measurable outcomes." }
   ],
   "market_focus": {
     "kicker": "Market Focus",
-    "title": "Built for GCC and MENA. Connected internationally.",
-    "text": "SGS supports regional project delivery while working with international suppliers, research channels, and specialist vendors. That mix helps clients access stronger technologies and clearer delivery options.",
+    "title": "Regional insight. Global network.",
+    "text": "Our core work is across GCC and MENA, supported by specialist partners in Europe and Asia Pacific. This gives you local relevance and international capability in one delivery model.",
     "image_url": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1400&q=80",
     "image_alt": "Regional infrastructure and energy network"
   },
   "why_section": {
-    "kicker": "Why Clients Work With SGS",
-    "title": "Short, clear reasons to engage.",
+    "kicker": "Why Clients Choose Us",
+    "title": "Clear value at every stage.",
     "cards": [
-      { "title": "Renewable energy leads", "text": "Solar and clean infrastructure sit at the center of the offer." },
-      { "title": "Advisory mindset", "text": "We structure projects, partnerships, and delivery pathways." },
-      { "title": "Technical credibility", "text": "Water, desalination, wastewater, and EPC coordination remain core strengths." },
-      { "title": "Long-term thinking", "text": "We support execution, operations, and practical project continuity." }
+      { "title": "Strategy with depth", "text": "We connect commercial goals to technical realities from day one." },
+      { "title": "Collaborative delivery", "text": "We work closely with your internal team and external partners." },
+      { "title": "Cross-sector expertise", "text": "Renewables, water, desalination, and EPC interfaces under one roof." },
+      { "title": "Long-term perspective", "text": "We support decisions that stay effective through execution and operations." }
+    ]
+  },
+  "team": {
+    "kicker": "Our Team",
+    "title": "People you can trust with high-stakes projects.",
+    "leadership": [
+      {
+        "name": "Amina Farouk",
+        "role": "Chief Executive Officer",
+        "summary": "Leads SGS strategy and client partnerships with 18+ years in renewable infrastructure and PPP program delivery.",
+        "image_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Amina Farouk",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      {
+        "name": "David Kim",
+        "role": "Chief Operating Officer",
+        "summary": "Oversees project governance, delivery standards, and cross-border coordination for complex energy and water portfolios.",
+        "image_url": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of David Kim",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    ],
+    "management": [
+      {
+        "name": "Sara Al-Hassan",
+        "role": "Director, Renewable Programs",
+        "summary": "Guides utility-scale solar programs from feasibility through procurement and partner alignment.",
+        "image_url": "https://images.unsplash.com/photo-1542382257-80dedb725088?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Sara Al-Hassan",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      {
+        "name": "Omar Rahman",
+        "role": "Director, Water Systems",
+        "summary": "Leads treatment, reuse, and desalination advisory programs for municipal and industrial clients.",
+        "image_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Omar Rahman",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Helen Moore",
+        "role": "Board Advisor, Infrastructure Finance",
+        "summary": "Supports project structuring and funding strategy with deep experience in blended finance and institutional partnerships.",
+        "image_url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Helen Moore",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      {
+        "name": "Dr. Nabil Idris",
+        "role": "Technical Advisor, Desalination",
+        "summary": "Advises on RO performance strategy, reliability planning, and long-term asset optimization.",
+        "image_url": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Dr. Nabil Idris",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    ],
+    "founders": [
+      {
+        "name": "Khaled Mansour",
+        "role": "Founder & Chairman",
+        "summary": "Founded SGS to bridge strategic advisory and implementation support across regional sustainability priorities.",
+        "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Khaled Mansour",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      {
+        "name": "Leila Haddad",
+        "role": "Co-Founder",
+        "summary": "Co-founded SGS with a focus on client-centric delivery, capability building, and trusted long-term partnerships.",
+        "image_url": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=300&q=80",
+        "image_alt": "Portrait of Leila Haddad",
+        "linkedin": "https://www.linkedin.com/"
+      }
     ]
   },
   "cta": {
     "kicker": "Work With SGS",
-    "title": "Engage a partner built for renewable infrastructure decisions.",
+    "title": "Let’s shape your next infrastructure decision together.",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }
