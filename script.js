@@ -246,6 +246,27 @@ const applyAbout = (data) => {
   setText(".narrow-text h2", data?.intro?.title);
   setText(".narrow-text p:last-child", data?.intro?.text);
 
+  const teamHead = document.querySelector(".team-grid")?.previousElementSibling;
+  if (teamHead) {
+    setText(teamHead.querySelector(".kicker"), data?.team?.kicker);
+    setText(teamHead.querySelector("h2"), data?.team?.title);
+  }
+  renderList(".team-grid", data?.team?.members, (member) => `
+    <article class="team-card reveal">
+      <img src="${escapeHtml(member?.image_url || "")}" alt="${escapeHtml(member?.image_alt || "")}">
+      <div class="team-card-body">
+        <a class="team-linkedin" href="${escapeHtml(member?.linkedin_url || "#")}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml((member?.name || "Team member") + " on LinkedIn")}">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.94 8.5a1.44 1.44 0 1 0 0-2.88 1.44 1.44 0 0 0 0 2.88ZM5.69 9.75h2.5V18h-2.5V9.75Zm4.07 0h2.4v1.13h.03c.33-.63 1.15-1.29 2.36-1.29 2.52 0 2.99 1.66 2.99 3.82V18h-2.5v-4.07c0-.97-.02-2.21-1.35-2.21-1.35 0-1.56 1.05-1.56 2.14V18h-2.5V9.75Z"/>
+          </svg>
+        </a>
+        <h3>${escapeHtml(member?.name || "")}</h3>
+        <p class="team-role">${escapeHtml(member?.role || "")}</p>
+        <p>${escapeHtml(member?.summary || "")}</p>
+      </div>
+    </article>
+  `);
+
   renderList(".card-row.three", data?.pillars, (item) => `
     <article class="info-card reveal">
       <p class="kicker">${escapeHtml(item?.kicker || "")}</p>

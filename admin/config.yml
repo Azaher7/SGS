@@ -211,6 +211,23 @@ collections:
             fields:
               - { label: "Kicker", name: "kicker", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
+          - label: "Team Section"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role", name: "role", widget: "string" }
+                  - { label: "Summary", name: "summary", widget: "text" }
+                  - { label: "Image Placeholder", name: "image_url", widget: "image" }
+                  - { label: "Image Alt", name: "image_alt", widget: "string" }
+                  - { label: "LinkedIn URL", name: "linkedin_url", widget: "string" }
           - { label: "Market Focus", name: "market_focus", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
           - label: "Why Section"
             name: "why_section"
@@ -241,6 +258,8 @@ collections:
               - { label: "Text", name: "text", widget: "text" }
               - { label: "Bullets", name: "bullets", widget: "list", field: { label: "Bullet", name: "bullet", widget: "string" } }
               - { label: "Featured", name: "featured", widget: "boolean", required: false }
+              - { label: "Panel Image", name: "image_url", widget: "image", required: false }
+              - { label: "Panel Image Alt", name: "image_alt", widget: "string", required: false }
           - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
 
       - file: "content/solutions.json"

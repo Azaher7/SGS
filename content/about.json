@@ -5,40 +5,40 @@
   },
   "hero": {
     "kicker": "About SGS",
-    "title": "Clean energy and water advisory.",
+    "title": "Clean energy and water advisory",
     "text": "Since 2015, SGS has supported teams across MENA with practical guidance, trusted partners, and clear next steps.",
-    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
+    "image_url": "images/placeholders/hero-about.svg",
     "image_alt": "Large scale energy landscape"
   },
   "intro": {
     "kicker": "Who We Are",
-    "title": "Hands-on advisory leadership.",
+    "title": "Hands-on advisory leadership",
     "text": "SGS combines strategy, project planning, and technical coordination to align stakeholders and keep delivery on track."
   },
   "pillars": [
     {
       "kicker": "Mission",
-      "title": "Clean infrastructure from idea to action."
+      "title": "Clean infrastructure from idea to action"
     },
     {
       "kicker": "Vision",
-      "title": "Grow renewable energy and resilient utility systems across priority markets."
+      "title": "Grow renewable energy and resilient utility systems across priority markets"
     },
     {
       "kicker": "Approach",
-      "title": "Open collaboration, trust, and practical partnerships."
+      "title": "Open collaboration trust and practical partnerships"
     }
   ],
   "market_focus": {
     "kicker": "Market Focus",
-    "title": "GCC and MENA focus. Global support.",
+    "title": "GCC and MENA focus Global support",
     "text": "Local delivery stays connected to international suppliers and specialist partners for stronger options and clearer delivery paths.",
-    "image_url": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1400&q=80",
+    "image_url": "images/placeholders/planning.svg",
     "image_alt": "Regional infrastructure and energy network"
   },
   "why_section": {
     "kicker": "Why Clients Work With SGS",
-    "title": "Short, clear reasons to engage.",
+    "title": "Short clear reasons to engage",
     "cards": [
       {
         "title": "Renewable energy leads",
@@ -60,8 +60,38 @@
   },
   "cta": {
     "kicker": "Work With SGS",
-    "title": "Renewable infrastructure decision support.",
+    "title": "Renewable infrastructure decision support",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
+  },
+  "team": {
+    "kicker": "Team",
+    "title": "Leadership team",
+    "members": [
+      {
+        "name": "Omar Rahman",
+        "role": "Managing Director",
+        "summary": "Omar leads strategy partnerships and project direction across energy and utility programs",
+        "image_url": "images/placeholders/team-member-1.svg",
+        "image_alt": "Team member placeholder upload image in CMS",
+        "linkedin_url": "https://www.linkedin.com/"
+      },
+      {
+        "name": "Leila Haddad",
+        "role": "Head of Project Development",
+        "summary": "Leila turns early concepts into structured plans with clear approvals and delivery milestones",
+        "image_url": "images/placeholders/team-member-2.svg",
+        "image_alt": "Team member placeholder upload image in CMS",
+        "linkedin_url": "https://www.linkedin.com/"
+      },
+      {
+        "name": "David Nasser",
+        "role": "Technical Advisory Lead",
+        "summary": "David supports technical programs in solar water and desalination to keep decisions coordinated",
+        "image_url": "images/placeholders/team-member-3.svg",
+        "image_alt": "Team member placeholder upload image in CMS",
+        "linkedin_url": "https://www.linkedin.com/"
+      }
+    ]
   }
 }
