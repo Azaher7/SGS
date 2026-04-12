@@ -52,10 +52,22 @@
     "kicker": "Why Clients Work With SGS",
     "title": "Short and clear reasons to engage",
     "cards": [
-      { "title": "Renewable energy leads", "text": "Solar and clean infrastructure sit at the center of the offer." },
-      { "title": "Advisory mindset", "text": "We structure projects, partnerships, and delivery pathways." },
-      { "title": "Technical credibility", "text": "Water, desalination, wastewater, and EPC coordination remain core strengths." },
-      { "title": "Long-term thinking", "text": "We support execution, operations, and practical project continuity." }
+      {
+        "title": "Renewable energy leads",
+        "text": "Solar and clean infrastructure sit at the center of the offer."
+      },
+      {
+        "title": "Advisory mindset",
+        "text": "We structure projects, partnerships, and delivery pathways."
+      },
+      {
+        "title": "Technical credibility",
+        "text": "Water, desalination, wastewater, and EPC coordination remain core strengths."
+      },
+      {
+        "title": "Long-term thinking",
+        "text": "We support execution, operations, and practical project continuity."
+      }
     ]
   },
   "cta": {
