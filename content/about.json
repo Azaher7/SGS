@@ -12,7 +12,7 @@
   },
   "team": {
     "kicker": "Leadership",
-    "title": "The people behind SGS",
+    "title": "Our Team",
     "intro": "Senior advisors with hands-on experience across energy, water, engineering, and international project delivery.",
     "members": [
       {
@@ -37,9 +37,18 @@
     "text": "SGS combines strategic advisory, project development, and technology coordination. We work with clients who need more than supply. They need a partner who can structure the opportunity, align the right stakeholders, and support execution."
   },
   "pillars": [
-    { "kicker": "Mission", "title": "Help clients move clean infrastructure from concept to action." },
-    { "kicker": "Vision", "title": "Advance renewable energy and sustainable utility systems across growth markets." },
-    { "kicker": "Approach", "title": "Open collaboration, trust, and fit-for-purpose project partnerships." }
+    {
+      "kicker": "Mission",
+      "title": "Help clients move clean infrastructure from concept to action."
+    },
+    {
+      "kicker": "Vision",
+      "title": "Advance renewable energy and sustainable utility systems across growth markets."
+    },
+    {
+      "kicker": "Approach",
+      "title": "Open collaboration, trust, and fit-for-purpose project partnerships."
+    }
   ],
   "market_focus": {
     "kicker": "Market Focus",
@@ -52,10 +61,22 @@
     "kicker": "Why Clients Work With SGS",
     "title": "Short, clear reasons to engage.",
     "cards": [
-      { "title": "Renewable energy leads", "text": "Solar and clean infrastructure sit at the center of the offer." },
-      { "title": "Advisory mindset", "text": "We structure projects, partnerships, and delivery pathways." },
-      { "title": "Technical credibility", "text": "Water, desalination, wastewater, and EPC coordination remain core strengths." },
-      { "title": "Long-term thinking", "text": "We support execution, operations, and practical project continuity." }
+      {
+        "title": "Renewable energy leads",
+        "text": "Solar and clean infrastructure sit at the center of the offer."
+      },
+      {
+        "title": "Advisory mindset",
+        "text": "We structure projects, partnerships, and delivery pathways."
+      },
+      {
+        "title": "Technical credibility",
+        "text": "Water, desalination, wastewater, and EPC coordination remain core strengths."
+      },
+      {
+        "title": "Long-term thinking",
+        "text": "We support execution, operations, and practical project continuity."
+      }
     ]
   },
   "cta": {
