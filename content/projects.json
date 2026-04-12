@@ -7,7 +7,7 @@
     "kicker": "Projects",
     "title": "Infrastructure project portfolio",
     "text": "Selected examples of strategic and technical work delivered across regional and international markets.",
-    "image_url": "images/placeholders/hero-projects.svg",
+    "image_url": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1800",
     "image_alt": "Energy infrastructure landscape"
   },
   "stories": [
@@ -15,14 +15,14 @@
       "kicker": "Utility-Scale Solar Advisory | GCC",
       "title": "Solar development support for a major regional energy program",
       "text": "Scope included project positioning, technology alignment, and early partnership planning for large-scale renewable deployment.",
-      "image_url": "images/placeholders/solar.svg",
+      "image_url": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Solar advisory project"
     },
     {
       "kicker": "Renewable Infrastructure Coordination | MENA",
       "title": "Integrated clean infrastructure planning across multiple workstreams",
       "text": "SGS coordinated energy, procurement, and delivery interfaces where technical fit and partner structure were both critical.",
-      "image_url": "images/placeholders/planning.svg",
+      "image_url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Infrastructure coordination project",
       "reverse": true
     },
@@ -30,14 +30,14 @@
       "kicker": "Hybrid Sustainability Program | Regional",
       "title": "Water and energy planning shaped as one infrastructure narrative",
       "text": "Designed to support stronger sustainability outcomes while keeping technical decisions practical and coordinated.",
-      "image_url": "images/placeholders/water.svg",
+      "image_url": "https://images.pexels.com/photos/12942115/pexels-photo-12942115.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Hybrid water and sustainability program"
     },
     {
       "kicker": "Desalination Advisory | Water-Stressed Markets",
       "title": "RO and desalination strategy for long-term water security planning",
       "text": "Work focused on technical option review, supplier coordination, and delivery planning for high-value utility infrastructure.",
-      "image_url": "images/placeholders/desalination.svg",
+      "image_url": "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Desalination infrastructure project",
       "reverse": true
     },
@@ -45,7 +45,7 @@
       "kicker": "Industrial Infrastructure Support | Cross-Border",
       "title": "Vendor and technical coordination for active industrial programs",
       "text": "SGS aligned specialist suppliers, project interfaces, and delivery expectations across a multi-party infrastructure environment.",
-      "image_url": "images/placeholders/industrial.svg",
+      "image_url": "https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Industrial infrastructure support"
     }
   ],

@@ -7,7 +7,7 @@
     "kicker": "Services",
     "title": "Advisory services for delivery",
     "text": "Renewable-focused services with clear technical and commercial support.",
-    "image_url": "images/placeholders/hero-services.svg",
+    "image_url": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1800",
     "image_alt": "Engineering and project planning environment"
   },
   "service_panels": [
@@ -22,7 +22,7 @@
         "Market-ready positioning"
       ],
       "featured": true,
-      "image_url": "images/placeholders/hero-solutions.svg",
+      "image_url": "https://images.pexels.com/photos/9800031/pexels-photo-9800031.jpeg?auto=compress&cs=tinysrgb&w=1800",
       "image_alt": "Renewable energy advisory meeting"
     },
     {
@@ -34,7 +34,7 @@
         "Procurement guidance",
         "Implementation coordination"
       ],
-      "image_url": "images/placeholders/hero-services.svg",
+      "image_url": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1800",
       "image_alt": "Solar project planning desk"
     },
     {
@@ -46,7 +46,7 @@
         "Grey and black water systems",
         "Industrial wastewater support"
       ],
-      "image_url": "images/placeholders/water.svg",
+      "image_url": "https://images.pexels.com/photos/12942115/pexels-photo-12942115.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Water treatment infrastructure"
     },
     {
@@ -58,7 +58,7 @@
         "Plant coordination",
         "Technology sourcing"
       ],
-      "image_url": "images/placeholders/desalination.svg",
+      "image_url": "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Desalination plant pipes"
     },
     {
@@ -70,7 +70,7 @@
         "Delivery planning",
         "Execution support"
       ],
-      "image_url": "images/placeholders/industrial.svg",
+      "image_url": "https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "EPC field coordination"
     },
     {
@@ -82,7 +82,7 @@
         "Support planning",
         "Performance continuity"
       ],
-      "image_url": "images/placeholders/industrial.svg",
+      "image_url": "https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Operations monitoring center"
     },
     {
@@ -94,7 +94,7 @@
         "Consortium alignment",
         "PPP coordination"
       ],
-      "image_url": "images/placeholders/planning.svg",
+      "image_url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Consortium planning session"
     },
     {
@@ -106,7 +106,7 @@
         "Vendor management",
         "Commercial alignment"
       ],
-      "image_url": "images/placeholders/planning.svg",
+      "image_url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "image_alt": "Procurement and vendor documentation"
     }
   ],

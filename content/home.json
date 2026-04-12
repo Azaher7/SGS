@@ -6,20 +6,20 @@
       {
         "kicker": "GCC Solar Advisory",
         "title": "Utility-scale solar development support for a high-growth regional program",
-        "image_url": "images/placeholders/solar.svg",
+        "image_url": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "image_alt": "Solar plant project",
         "large": true
       },
       {
         "kicker": "Hybrid Infrastructure",
         "title": "Water-energy project coordination",
-        "image_url": "images/placeholders/water.svg",
+        "image_url": "https://images.pexels.com/photos/12942115/pexels-photo-12942115.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "image_alt": "Hybrid water energy infrastructure"
       },
       {
         "kicker": "Industrial Support",
         "title": "Technical partner and vendor alignment",
-        "image_url": "images/placeholders/industrial.svg",
+        "image_url": "https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "image_alt": "Industrial technical support project"
       }
     ]
@@ -32,14 +32,14 @@
         "type": "Solar & Renewable Energy",
         "title": "Utility-scale solar pathways with commercial and technical clarity",
         "text": "SGS supports technology sourcing, partner alignment, and project structuring for clean energy delivery.",
-        "image_url": "images/placeholders/solar.svg",
+        "image_url": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "image_alt": "Solar panels in desert"
       },
       {
         "type": "Water, Wastewater & Desalination",
         "title": "Technical systems designed for resilience and long-term performance",
         "text": "From treatment to RO and desalination, SGS helps shape sustainable utility solutions for demanding environments.",
-        "image_url": "images/placeholders/water.svg",
+        "image_url": "https://images.pexels.com/photos/12942115/pexels-photo-12942115.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "image_alt": "Water treatment infrastructure",
         "reverse": true
       }
@@ -135,17 +135,17 @@
     "link_href": "about.html",
     "images": [
       {
-        "url": "images/placeholders/planning.svg",
+        "url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "alt": "Renewable energy infrastructure"
       },
       {
-        "url": "images/placeholders/planning.svg",
+        "url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "alt": "Infrastructure planning environment"
       }
     ]
   },
   "hero": {
-    "image_url": "images/placeholders/hero-home.svg",
+    "image_url": "https://images.pexels.com/photos/9875416/pexels-photo-9875416.jpeg?auto=compress&cs=tinysrgb&w=1800",
     "image_alt": "Large solar farm",
     "title": "Sustainable progress delivered",
     "subtitle": "International consulting for renewable energy and infrastructure programs.",

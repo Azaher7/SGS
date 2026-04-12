@@ -7,7 +7,7 @@
     "kicker": "About SGS",
     "title": "Clean energy and water advisory",
     "text": "Since 2015, SGS has supported teams across MENA with practical guidance, trusted partners, and clear next steps.",
-    "image_url": "images/placeholders/hero-about.svg",
+    "image_url": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1800",
     "image_alt": "Large scale energy landscape"
   },
   "intro": {
@@ -33,7 +33,7 @@
     "kicker": "Market Focus",
     "title": "GCC and MENA focus Global support",
     "text": "Local delivery stays connected to international suppliers and specialist partners for stronger options and clearer delivery paths.",
-    "image_url": "images/placeholders/planning.svg",
+    "image_url": "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "image_alt": "Regional infrastructure and energy network"
   },
   "why_section": {
