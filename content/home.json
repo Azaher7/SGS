@@ -6,7 +6,7 @@
       {
         "kicker": "GCC Solar Advisory",
         "title": "Utility-scale solar development support for a high-growth regional program",
-        "image_url": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1400&q=80",
+        "image_url": "/images/uploads/jo-szczepanska-5airb5f464a-unsplash.jpg",
         "image_alt": "Solar plant project",
         "large": true
       },
@@ -19,7 +19,7 @@
       {
         "kicker": "Industrial Support",
         "title": "Technical partner and vendor alignment",
-        "image_url": "https://images.unsplash.com/photo-1581092919535-7146ff1a590d?auto=format&fit=crop&w=1000&q=80",
+        "image_url": "/images/uploads/val-toch-qtvmhpsetxc-unsplash.jpg",
         "image_alt": "Industrial technical support project"
       }
     ]
@@ -139,7 +139,7 @@
         "alt": "Renewable energy infrastructure"
       },
       {
-        "url": "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=900&q=80",
+        "url": "/images/uploads/michael-fortsch-czqpp2rrjd4-unsplash.jpg",
         "alt": "Infrastructure planning environment"
       }
     ]
