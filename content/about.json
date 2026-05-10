@@ -16,18 +16,18 @@
     "intro": "Senior advisors with hands-on experience across energy, water, engineering, and international project delivery.",
     "members": [
       {
-        "name": "Ali Shriem",
+        "name": "Mustafa Shriem, PMP",
         "role": "Founder and Managing Director",
-        "description": "Leads advisory engagements across renewable energy, water, and sustainable infrastructure. Focused on structuring long-term partnerships for clients in GCC and international markets.",
-        "linkedin": "https://www.linkedin.com/",
+        "description": "Leads advisory engagements across renewable energy, water, and sustainable infrastructure. Focused on structuring long-term partnerships for clients in GCC and MENA markets.",
+        "linkedin": "https://www.linkedin.com/in/mustafa-ali-shriem-pmp-732663234/",
         "image_url": ""
       },
       {
-        "name": "Mustafa Shriem",
+        "name": "Ali Shriem",
         "role": "Director of Project Development",
         "description": "Oversees project development, EPC coordination, and vendor strategy. Works closely with utilities and industrial partners to move programs from concept through delivery.",
-        "linkedin": "https://www.linkedin.com/",
-        "image_url": ""
+        "linkedin": "https://www.linkedin.com/in/ali-mustafa-shriem-msc-a3477178/",
+        "image_url": "/images/uploads/professional-pic-2.jpg"
       }
     ]
   },
@@ -37,9 +37,18 @@
     "text": "SGS combines strategic advisory, project development, and technology coordination. We work with clients who need more than supply. They need a partner who can structure the opportunity, align the right stakeholders, and support execution."
   },
   "pillars": [
-    { "kicker": "Mission", "title": "Help clients move clean infrastructure from concept to action" },
-    { "kicker": "Vision", "title": "Advance renewable energy and sustainable utility systems across growth markets" },
-    { "kicker": "Approach", "title": "Open collaboration trust and fit-for-purpose project partnerships" }
+    {
+      "kicker": "Mission",
+      "title": "Help clients move clean infrastructure from concept to action"
+    },
+    {
+      "kicker": "Vision",
+      "title": "Advance renewable energy and sustainable utility systems across growth markets"
+    },
+    {
+      "kicker": "Approach",
+      "title": "Open collaboration trust and fit-for-purpose project partnerships"
+    }
   ],
   "market_focus": {
     "kicker": "Market Focus",
