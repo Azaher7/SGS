@@ -108,6 +108,13 @@ textarea {
   letter-spacing: 0.08em;
 }
 
+.brand-logo {
+  width: clamp(7.5rem, 13vw, 11rem);
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .brand-label {
   max-width: 19rem;
   font-size: 0.76rem;
@@ -943,6 +950,10 @@ p {
 
   .site-nav.open {
     display: flex;
+  }
+
+  .brand-logo {
+    width: clamp(6.5rem, 34vw, 9rem);
   }
 
   .brand-label {
