@@ -109,15 +109,20 @@ textarea {
 }
 
 .brand-logo {
-  width: clamp(8.6rem, 13.8vw, 11.8rem);
+  width: clamp(10.2rem, 16.5vw, 14rem);
   height: auto;
+  max-height: none;
+  aspect-ratio: 2048 / 645;
   object-fit: contain;
   display: block;
   filter: none;
 }
 
 .footer-brand .brand-logo {
-  width: clamp(9.6rem, 15.4vw, 13.2rem);
+  width: clamp(10.8rem, 17.2vw, 14.8rem);
+  height: auto;
+  max-height: none;
+  object-fit: contain;
   filter: none;
 }
 
@@ -965,11 +970,15 @@ p {
   }
 
   .brand-logo {
-    width: clamp(7rem, 32vw, 9.4rem);
+    width: clamp(8.2rem, 40vw, 11.2rem);
+    height: auto;
+    max-height: none;
   }
 
   .footer-brand .brand-logo {
-    width: clamp(7.6rem, 35vw, 10.4rem);
+    width: clamp(8.8rem, 43vw, 12rem);
+    height: auto;
+    max-height: none;
   }
 
   .brand-label {
