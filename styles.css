@@ -90,7 +90,7 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.68rem;
+  gap: 0.48rem;
 }
 
 .brand-badge {
@@ -109,7 +109,7 @@ textarea {
 }
 
 .brand-logo {
-  width: clamp(5.6rem, 9.5vw, 8.1rem);
+  width: clamp(5.9rem, 10.2vw, 8.4rem);
   height: auto;
   object-fit: contain;
   display: block;
@@ -117,7 +117,7 @@ textarea {
 }
 
 .footer-brand .brand-logo {
-  width: clamp(6.3rem, 10.8vw, 8.8rem);
+  width: clamp(6.2rem, 11.2vw, 9rem);
   filter: hue-rotate(-7deg) saturate(98%) brightness(1.02);
 }
 
@@ -814,10 +814,6 @@ p {
   gap: 0.52rem;
 }
 
-.footer-brand .brand-label {
-  max-width: 15.5rem;
-  line-height: 1.24;
-}
 
 .footer-text,
 .site-footer p,
@@ -969,11 +965,11 @@ p {
   }
 
   .brand-logo {
-    width: clamp(5.1rem, 25vw, 6.8rem);
+    width: clamp(5.3rem, 24vw, 7rem);
   }
 
   .footer-brand .brand-logo {
-    width: clamp(5.7rem, 27vw, 7.4rem);
+    width: clamp(5.6rem, 26vw, 7.2rem);
   }
 
   .brand-label {
