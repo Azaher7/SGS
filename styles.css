@@ -109,10 +109,14 @@ textarea {
 }
 
 .brand-logo {
-  width: clamp(7.5rem, 13vw, 11rem);
+  width: clamp(6.2rem, 11vw, 9rem);
   height: auto;
   object-fit: contain;
   display: block;
+}
+
+.footer-brand .brand-logo {
+  width: clamp(7rem, 12vw, 10rem);
 }
 
 .brand-label {
@@ -953,7 +957,11 @@ p {
   }
 
   .brand-logo {
-    width: clamp(6.5rem, 34vw, 9rem);
+    width: clamp(5.6rem, 28vw, 7.6rem);
+  }
+
+  .footer-brand .brand-logo {
+    width: clamp(6.2rem, 30vw, 8.2rem);
   }
 
   .brand-label {
