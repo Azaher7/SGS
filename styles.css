@@ -113,12 +113,10 @@ textarea {
   height: auto;
   object-fit: contain;
   display: block;
-  filter: hue-rotate(-7deg) saturate(93%) brightness(0.96);
 }
 
 .footer-brand .brand-logo {
   width: clamp(7rem, 12vw, 10rem);
-  filter: hue-rotate(-7deg) saturate(98%) brightness(1.02);
 }
 
 .brand-label {
