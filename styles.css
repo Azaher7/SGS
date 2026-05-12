@@ -90,7 +90,7 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.9rem;
+  gap: 0.82rem;
 }
 
 .brand-badge {
@@ -108,12 +108,25 @@ textarea {
   letter-spacing: 0.08em;
 }
 
+.brand-logo {
+  width: clamp(6.2rem, 11vw, 9rem);
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: hue-rotate(-7deg) saturate(93%) brightness(0.96);
+}
+
+.footer-brand .brand-logo {
+  width: clamp(7rem, 12vw, 10rem);
+  filter: hue-rotate(-7deg) saturate(98%) brightness(1.02);
+}
+
 .brand-label {
   max-width: 19rem;
-  font-size: 0.76rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  line-height: 1.35;
+  letter-spacing: 0.11em;
+  line-height: 1.32;
   text-transform: uppercase;
 }
 
@@ -943,6 +956,14 @@ p {
 
   .site-nav.open {
     display: flex;
+  }
+
+  .brand-logo {
+    width: clamp(5.6rem, 28vw, 7.6rem);
+  }
+
+  .footer-brand .brand-logo {
+    width: clamp(6.2rem, 30vw, 8.2rem);
   }
 
   .brand-label {
