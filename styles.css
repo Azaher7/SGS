@@ -465,6 +465,7 @@ p {
 .project-tile,
 .story-image,
 .visual-media {
+  position: relative;
   overflow: hidden;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);
@@ -476,9 +477,12 @@ p {
 .project-tile img,
 .story-image img,
 .visual-media img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   transition: transform 420ms ease;
 }
 
