@@ -109,7 +109,7 @@ textarea {
 }
 
 .brand-logo {
-  width: clamp(10.2rem, 16.5vw, 14rem);
+  width: clamp(8.5rem, 12vw, 10.8rem);
   height: auto;
   max-height: none;
   aspect-ratio: 2048 / 645;
