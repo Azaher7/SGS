@@ -113,12 +113,12 @@ textarea {
   height: auto;
   object-fit: contain;
   display: block;
-  filter: saturate(1.18) brightness(1.06) contrast(1.05) drop-shadow(0 1px 6px rgba(10, 80, 62, 0.16));
+  filter: none;
 }
 
 .footer-brand .brand-logo {
   width: clamp(9rem, 15vw, 12rem);
-  filter: brightness(1.42) saturate(1.38) contrast(1.08) drop-shadow(0 2px 14px rgba(14, 96, 72, 0.38));
+  filter: brightness(1.65) saturate(1.1);
 }
 
 .brand-label {
@@ -186,20 +186,14 @@ textarea {
 }
 
 .button-primary {
-  background: linear-gradient(160deg, #13826a, #083d31);
+  background: linear-gradient(145deg, #0f6651, #08382e);
   color: var(--white);
-  box-shadow:
-    0 0 0 1px rgba(18, 124, 98, 0.22),
-    0 4px 18px rgba(8, 58, 46, 0.48),
-    0 1px 4px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 6px 28px rgba(8, 56, 46, 0.52), 0 2px 8px rgba(0, 0, 0, 0.18);
 }
 
 .button-primary:hover {
-  background: linear-gradient(160deg, #178f75, #0a4638);
-  box-shadow:
-    0 0 0 1px rgba(20, 140, 110, 0.28),
-    0 8px 28px rgba(8, 58, 46, 0.58),
-    0 2px 6px rgba(0, 0, 0, 0.22);
+  background: linear-gradient(145deg, #12775d, #0a4236);
+  box-shadow: 0 10px 36px rgba(8, 56, 46, 0.62), 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .button-secondary {
@@ -218,8 +212,8 @@ textarea {
   color: #ffffff;
   font-weight: 700;
   font-size: 0.92rem;
-  letter-spacing: 0.015em;
-  text-shadow: 0 1px 4px rgba(2, 10, 8, 0.5);
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 3px rgba(4, 14, 12, 0.4);
   padding: 0.78rem 1.55rem;
 }
 
