@@ -214,7 +214,8 @@ textarea {
   display: none;
 }
 
-.nav-button {
+.site-nav > a.nav-button {
+  color: #ffffff;
   font-size: 0.92rem;
   letter-spacing: 0.01em;
   padding: 0.78rem 1.55rem;
