@@ -113,7 +113,7 @@ textarea {
   height: auto;
   object-fit: contain;
   display: block;
-  filter: saturate(1.22) brightness(1.05) contrast(1.04);
+  filter: saturate(1.45) brightness(1.14) contrast(1.06);
 }
 
 .footer-brand .brand-logo {
@@ -219,7 +219,7 @@ textarea {
   font-weight: 700;
   font-size: 0.92rem;
   letter-spacing: 0.01em;
-  text-shadow: 0 1px 3px rgba(4, 14, 12, 0.4);
+  text-shadow: none;
   padding: 0.78rem 1.55rem;
 }
 
