@@ -1066,18 +1066,6 @@ p { margin: 0; color: var(--text-soft); }
   overflow: hidden;
 }
 
-.cta-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 80px 80px;
-  mask-image: radial-gradient(ellipse 900px 500px at 50% 50%, black 30%, transparent 80%);
-  pointer-events: none;
-}
-
 .cta-layout {
   position: relative;
   display: flex;
@@ -1425,18 +1413,6 @@ p { margin: 0; color: var(--text-soft); }
   color: var(--white);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   overflow: hidden;
-}
-
-.site-footer::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 80px 80px;
-  mask-image: radial-gradient(ellipse 1100px 600px at 50% 0%, black 30%, transparent 85%);
-  pointer-events: none;
 }
 
 .site-footer > .container { position: relative; z-index: 1; }
