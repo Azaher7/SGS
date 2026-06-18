@@ -375,6 +375,7 @@ const applyProjects = (data) => {
         <p class="kicker">${escapeHtml(item?.kicker || "")}</p>
         <h2>${escapeHtml(item?.title || "")}</h2>
         <p>${escapeHtml(item?.text || "")}</p>
+        ${item?.link_href ? `<a class="text-link" href="${escapeHtml(item.link_href)}">${escapeHtml(item.link_label || "View case study")}</a>` : ""}
       </div>
     </article>
   `);
