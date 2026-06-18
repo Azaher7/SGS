@@ -294,6 +294,8 @@ collections:
               - { label: "Text", name: "text", widget: "text" }
               - { label: "Image", name: "image_url", widget: "image" }
               - { label: "Image Alt", name: "image_alt", widget: "string" }
+              - { label: "Case Study Link (optional)", name: "link_href", widget: "string", required: false, hint: "Page to open, e.g. project-kimuka.html" }
+              - { label: "Case Study Link Label", name: "link_label", widget: "string", required: false, default: "View case study" }
               - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
           - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
 

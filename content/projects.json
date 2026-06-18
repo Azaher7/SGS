@@ -1,45 +1,43 @@
 {
   "meta": {
-    "title": "Projects | SGS",
-    "description": "Image-led SGS projects across utility-scale solar advisory, hybrid infrastructure coordination, desalination strategy, and industrial support."
+    "title": "Selected Projects & Case Studies | SGS",
+    "description": "Selected SGS projects and case studies: the Kimuka 2 utility-scale solar PV and BESS project in Kenya, a five-plant industrial wastewater treatment programme in Qatar, and the SGS EPC consortium for East Africa and MENA."
   },
   "hero": {
-    "kicker": "Projects",
-    "title": "Selected infrastructure projects",
-    "text": "These project examples reflect the kind of strategic and technical work SGS supports across regional and international markets.",
+    "kicker": "Selected Projects & Case Studies",
+    "title": "Proven delivery across solar, storage, and water",
+    "text": "A focused set of EPC and infrastructure programmes — from utility-scale solar and battery storage in East Africa to industrial wastewater treatment in the Gulf — delivered by SGS and its multinational EPC consortium.",
     "image_url": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Energy infrastructure landscape"
   },
   "stories": [
     {
-      "kicker": "Utility-Scale Solar Advisory | GCC",
-      "title": "Solar development support for a major regional energy program",
-      "text": "Scope included project positioning, technology alignment, and early partnership planning for large-scale renewable deployment.",
+      "kicker": "Utility-Scale Solar PV + BESS · Kajiado County, Kenya",
+      "title": "Kimuka 2 Solar PV + BESS Project — 50.64 MWp DC / 40 MWac",
+      "text": "A 50.64 MWp DC / 40 MWac single-axis-tracker solar farm with a 10 MW / 20.06 MWh battery energy storage system, connected at 66 kV under a 20-year power purchase agreement. SGS has been selected as EPC contractor; the project is in development, with the EPC contract pending execution.",
       "image_url": "/images/uploads/derek-sutton-rfgsyfb_5ow-unsplash.jpg",
-      "image_alt": "Solar advisory project"
+      "image_alt": "Aerial view of a utility-scale solar photovoltaic farm",
+      "link_href": "project-kimuka.html",
+      "link_label": "View case study"
     },
     {
-      "kicker": "Renewable Infrastructure Coordination | MENA",
-      "title": "Integrated clean infrastructure planning across multiple workstreams",
-      "text": "SGS coordinated energy, procurement, and delivery interfaces where technical fit and partner structure were both critical.",
+      "kicker": "Industrial Wastewater EPC + 24/7 O&M · Qatar · 2016–2021",
+      "title": "Qatar Industrial Wastewater Treatment Programme — five C-WWTP plants",
+      "text": "Engineering, construction, commissioning and continuous 24/7 operation of five industrial wastewater treatment plants across three sites, delivered to the discharge standards of Qatar's Public Works Authority over roughly five years of regulated operations.",
+      "image_url": "/images/uploads/qatar-cwwtp-plant.jpg",
+      "image_alt": "Industrial wastewater treatment plant, aerial view",
+      "reverse": true,
+      "link_href": "project-qatar.html",
+      "link_label": "View case study"
+    },
+    {
+      "kicker": "EPC Consortium · East Africa & MENA",
+      "title": "SGS EPC Consortium — utility-scale solar, storage, and structured finance",
+      "text": "SGS International leads a multinational EPC consortium with ECEXA, Gretecsol GmbH, ROK Development and VOLARK — combining utility-scale PV and BESS delivery, grid connection, in-house engineering, structured EPCF, water and wastewater capability, and long-term O&M.",
       "image_url": "/images/uploads/subhash-chand-t-q7fvajgha-unsplash-1-.jpg",
-      "image_alt": "Infrastructure coordination project",
-      "reverse": true
-    },
-    {
-      "kicker": "Hybrid Sustainability Program | Regional",
-      "title": "Water and energy planning shaped as one infrastructure narrative",
-      "text": "Designed to support stronger sustainability outcomes while keeping technical decisions practical and coordinated.",
-      "image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1400&q=80",
-      "image_alt": "Hybrid water and sustainability program"
-    },
-    {
-      "kicker": "Desalination Advisory | Water-Stressed Markets",
-      "title": "RO and desalination strategy for long-term water security planning",
-      "text": "Work focused on technical option review, supplier coordination, and delivery planning for high-value utility infrastructure.",
-      "image_url": "/images/uploads/powder-coating-plant-manufacturer-iquuvwbi1nc-unsplash.jpg",
-      "image_alt": "Desalination project",
-      "reverse": true
+      "image_alt": "Modern engineered infrastructure facility",
+      "link_href": "project-consortium.html",
+      "link_label": "View capabilities"
     }
   ],
   "cta": {
