@@ -366,18 +366,38 @@ const applySolutions = (data) => {
 const applyProjects = (data) => {
   if (!data) return;
   applyPageHero(data);
-  renderList(".project-story-list", data?.stories, (item, index) => `
-    <article class="project-story ${(item?.reverse || index % 2 === 1) ? "reverse" : ""} reveal">
-      <div class="story-image">
-        <img src="${escapeHtml(item?.image_url || "")}" alt="${escapeHtml(item?.image_alt || "")}">
+
+  setText(".projects-intro .kicker", data?.intro?.kicker);
+  setText("#projects-intro-title", data?.intro?.title);
+  setText("#projects-intro-text", data?.intro?.text);
+
+  const specRow = (label, value) =>
+    value
+      ? `<li><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></li>`
+      : "";
+
+  renderList(".project-cards", data?.plants, (item) => `
+    <article class="project-card reveal">
+      <div class="project-card-media">
+        <img src="${escapeHtml(item?.image_url || "")}" alt="${escapeHtml(item?.image_alt || "")}" loading="lazy">
       </div>
-      <div class="story-copy">
+      <div class="project-card-body">
         <p class="kicker">${escapeHtml(item?.kicker || "")}</p>
-        <h2>${escapeHtml(item?.title || "")}</h2>
-        <p>${escapeHtml(item?.text || "")}</p>
+        <h3>${escapeHtml(item?.name || "")}</h3>
+        <ul class="project-specs">
+          ${specRow("Location", item?.location)}
+          ${specRow("Capacity", item?.capacity)}
+          ${specRow("Key technology", item?.technology)}
+        </ul>
+        <p class="project-card-summary">${escapeHtml(item?.summary || "")}</p>
+        ${item?.href ? `<a class="button button-outline" href="${escapeHtml(item.href)}"><span class="button-arrow">Project Details</span></a>` : ""}
       </div>
     </article>
   `);
+
+  setText("#projects-transferability", data?.transferability);
+  setText("#projects-solar-note", data?.solar_note);
+
   setText(".cta-layout .kicker", data?.cta?.kicker);
   setText(".cta-layout h2", data?.cta?.title);
   setText(".cta-layout .button", data?.cta?.button_label);

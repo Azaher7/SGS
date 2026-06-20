@@ -1,65 +1,65 @@
 {
   "meta": {
-    "title": "Solutions | SGS",
-    "description": "Technical SGS solutions across solar and renewable systems, utility infrastructure, water treatment, wastewater, desalination, and industrial support."
+    "title": "Solutions | SGS International — Sectors & Capabilities",
+    "description": "SGS turnkey solutions across solar PV, industrial water treatment, and civil infrastructure, supported by integrated EPC, commissioning, O&M, quality, and HSE capabilities."
   },
   "hero": {
     "kicker": "Solutions",
-    "title": "Sector solutions for energy and water",
-    "text": "Short, clear sector positioning backed by stronger imagery and cleaner layouts.",
+    "title": "Turnkey solutions across our three core sectors",
+    "text": "Single-source EPC and O&M delivery for solar PV, water treatment, and civil infrastructure — water proven, the others ready.",
     "image_url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Industrial energy infrastructure"
+    "image_alt": "Industrial energy and infrastructure"
   },
   "solutions": [
     {
-      "kicker": "Solar & Renewable Energy Systems",
-      "title": "Clean power systems built for real market conditions",
-      "text": "SGS supports photovoltaic, utility-scale solar, and broader renewable system planning with a consulting-first lens.",
+      "kicker": "Solar PV / Renewables",
+      "title": "Full EPC and O&M for utility-scale and distributed solar PV",
+      "text": "We offer complete solar PV delivery — engineering, procurement, construction, commissioning, and O&M — backed by the project delivery systems proven across our water treatment plants.",
       "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
-      "image_alt": "Solar infrastructure site"
+      "image_alt": "Solar photovoltaic plant"
     },
     {
-      "kicker": "Utility-Scale Clean Infrastructure",
-      "title": "Integrated project support for complex infrastructure delivery",
-      "text": "Energy, engineering, procurement, and implementation planning aligned inside one framework.",
-      "image_url": "/images/uploads/derek-sutton-rfgsyfb_5ow-unsplash.jpg",
-      "image_alt": "Utility-scale infrastructure project",
-      "reverse": true
-    },
-    {
-      "kicker": "Water Treatment",
-      "title": "Utility systems that support resilience and resource quality",
-      "text": "Treatment and purification pathways for industrial, municipal, and specialized use cases.",
+      "kicker": "Industrial Water & Wastewater Treatment",
+      "title": "Our proven, delivered sector — 5 plants in Qatar",
+      "text": "Engineering, construction, commissioning, and O&M of industrial water treatment plants — coagulation, multimedia and activated carbon filtration, and sludge handling — delivered to discharge standard.",
       "image_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
-      "image_alt": "Water treatment tanks"
-    },
-    {
-      "kicker": "Wastewater Systems",
-      "title": "Recycling and treatment strategies with operational practicality",
-      "text": "Support for wastewater treatment, recovery, sludge handling, and related infrastructure planning.",
-      "image_url": "/images/uploads/ivan-bandura-6wsevhw1dzc-unsplash.jpg",
-      "image_alt": "Wastewater and sustainability infrastructure",
+      "image_alt": "Water treatment tanks",
       "reverse": true
     },
     {
-      "kicker": "Desalination & Reverse Osmosis",
-      "title": "High-value water security solutions for demanding environments",
-      "text": "RO, desalination, and water production planning supported by technical coordination and sourcing insight.",
-      "image_url": "/images/uploads/selim-arda-eryilmaz-rdxjg7uqf08-unsplash.jpg",
-      "image_alt": "Desalination facility"
+      "kicker": "Civil Infrastructure",
+      "title": "Turnkey civil delivery from foundations to handover",
+      "text": "Site works, foundations, reinforced concrete structures, and pre-engineered steel buildings — delivered with the same quality and HSE systems proven on our water projects.",
+      "image_url": "/images/uploads/subhash-chand-t-q7fvajgha-unsplash-1-.jpg",
+      "image_alt": "Civil infrastructure construction"
     },
     {
-      "kicker": "Sustainable Industrial Infrastructure",
-      "title": "Technical support where utility performance and industrial delivery meet",
-      "text": "SGS helps connect specialized technology, procurement, and stakeholder coordination in active industrial programs.",
+      "kicker": "Engineering, Procurement & Construction",
+      "title": "Integrated EPC delivery under one accountable contract",
+      "text": "Multidiscipline engineering, procurement, and construction aligned inside a single delivery framework, with project management and cross-border sourcing.",
+      "image_url": "/images/uploads/derek-sutton-rfgsyfb_5ow-unsplash.jpg",
+      "image_alt": "Engineering and construction delivery",
+      "reverse": true
+    },
+    {
+      "kicker": "Commissioning, Operations & Maintenance",
+      "title": "Start-up to steady-state performance through to handover",
+      "text": "Commissioning, performance testing, operations, and maintenance — keeping assets running to specification and supported through to handover.",
+      "image_url": "/images/uploads/suppanuch-wongpasklang-tced2fvvxcc-unsplash-1-.jpg",
+      "image_alt": "Plant operations and maintenance"
+    },
+    {
+      "kicker": "Quality & HSE Management",
+      "title": "Quality and HSE systems built into every project",
+      "text": "QA/QC, inspection, testing, and HSE management applied consistently across solar PV, water, and civil infrastructure delivery.",
       "image_url": "/images/uploads/zan-lazarevic-ameeeb1g3xq-unsplash.jpg",
-      "image_alt": "Industrial technical facility",
+      "image_alt": "Quality and HSE on site",
       "reverse": true
     }
   ],
   "cta": {
     "kicker": "Solution Planning",
-    "title": "Choose the right pathway for your infrastructure program",
+    "title": "Choose the right turnkey pathway for your program",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

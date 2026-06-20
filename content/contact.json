@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "Contact SGS",
-    "description": "Contact SGS for renewable energy consulting, project development, and sustainable infrastructure advisory."
+    "title": "Contact SGS International",
+    "description": "Contact SGS — turnkey EPC and O&M contractor across solar PV, industrial water treatment, and civil infrastructure."
   },
   "hero": {
     "kicker": "Contact",
     "title": "Start a conversation",
-    "text": "Share your project stage, market, and priority areas. SGS will respond with the right next step.",
+    "text": "Share your project stage, sector, and priorities. We will respond with the right next step toward delivery.",
     "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Global infrastructure and connectivity image"
+    "image_alt": "Global infrastructure and connectivity"
   },
   "form": {
     "kicker": "Request a Consultation",
-    "title": "Tell us about your opportunity",
+    "title": "Tell us about your project",
     "fields": {
       "name": { "label": "Name", "placeholder": "Your name" },
       "company": { "label": "Company", "placeholder": "Organization name" },
@@ -20,12 +20,12 @@
       "focus": {
         "label": "Project Focus",
         "options": [
-          "Renewable Energy Consulting",
-          "Solar Infrastructure Advisory",
-          "Water & Wastewater",
-          "Desalination & Reverse Osmosis",
-          "JV / PPP / Consortium Support",
-          "Procurement & Partnerships"
+          "Solar PV (EPC & O&M)",
+          "Water Treatment (EPC & O&M)",
+          "Civil Infrastructure",
+          "Engineering & Design",
+          "Commissioning & O&M",
+          "Technical Advisory"
         ]
       },
       "brief": {
@@ -34,21 +34,21 @@
       }
     },
     "submit_label": "Submit Inquiry",
-    "feedback_text": "Consultation requests are reviewed directly from this page submission."
+    "feedback_text": "Project inquiries are reviewed directly from this page submission."
   },
   "info_cards": [
     {
       "kicker": "Company",
       "title": "Sustainable Green Solutions International LLC",
-      "text": "International renewable energy consulting and sustainable infrastructure advisory."
+      "text": "Turnkey EPC and O&M contractor across solar PV, industrial water treatment, and civil infrastructure."
     },
     {
       "kicker": "Markets",
-      "text": "GCC, MENA, and international partner networks."
+      "text": "Qatar, GCC, and international partner networks."
     },
     {
-      "kicker": "Core Areas",
-      "text": "Solar, renewable energy, water, desalination, procurement, and technical coordination."
+      "kicker": "Core Sectors",
+      "text": "Solar PV, industrial water treatment, and civil infrastructure — from engineering and design to construction, commissioning, and O&M."
     }
   ]
 }

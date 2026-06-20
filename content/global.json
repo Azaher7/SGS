@@ -15,7 +15,7 @@
     "cta": { "label": "Request a Consultation", "href": "contact.html" }
   },
   "footer": {
-    "description": "International renewable energy consulting, project development, and sustainable infrastructure advisory.",
+    "description": "Turnkey EPC and O&M contractor delivering solar PV, industrial water treatment, and civil infrastructure projects from a single source.",
     "pages_title": "Pages",
     "pages_links": [
       { "label": "About", "href": "about.html" },
@@ -24,17 +24,17 @@
       { "label": "Projects", "href": "projects.html" },
       { "label": "Contact", "href": "contact.html" }
     ],
-    "focus_title": "Focus",
+    "focus_title": "Sectors",
     "focus_items": [
-      "Renewable energy",
-      "Solar infrastructure",
-      "Water and desalination",
-      "Partnership facilitation"
+      "Solar PV (EPC & O&M)",
+      "Industrial water treatment",
+      "Civil infrastructure",
+      "Commissioning & O&M"
     ],
     "contact_title": "Contact",
     "contact_lines": [
-      "Project consultations by appointment",
-      "GCC, MENA, and international markets"
+      "Project inquiries by appointment",
+      "Qatar, GCC, and international markets"
     ],
     "contact_link_label": "Send an inquiry",
     "contact_link_href": "contact.html",

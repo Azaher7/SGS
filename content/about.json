@@ -1,31 +1,31 @@
 {
   "meta": {
-    "title": "About SGS | International Clean Energy Advisory",
-    "description": "About SGS: an international renewable energy consulting, project development, and sustainable infrastructure advisory firm."
+    "title": "About SGS International | Full-Service EPC & O&M Contractor",
+    "description": "SGS is a full-service EPC and O&M contractor delivering turnkey solar PV, industrial water treatment, and civil infrastructure projects, with a proven track record of 5 water treatment plants in Qatar."
   },
   "hero": {
     "kicker": "About SGS",
-    "title": "International advisory for sustainable infrastructure",
-    "text": "Founded in 2015, SGS was built to respond to growing water and energy demand in the MENA region with practical, modern, and partnership-driven solutions.",
+    "title": "Full-Service EPC & O&M Contractor – Delivering Turnkey Infrastructure Solutions",
+    "text": "We design, procure, construct, commission, and operate — delivering turnkey solutions across solar PV, industrial water treatment, and civil infrastructure with single-point accountability.",
     "image_url": "/images/uploads/michael-fortsch-czqpp2rrjd4-unsplash.jpg",
-    "image_alt": "Large scale energy landscape"
+    "image_alt": "Large-scale infrastructure landscape"
   },
   "team": {
-    "kicker": "Leadership",
-    "title": "Our Team",
-    "intro": "Senior advisors with hands-on experience across energy, water, engineering, and international project delivery.",
+    "kicker": "Our Team",
+    "title": "Engineers, builders, and operators",
+    "intro": "Our team brings together engineers, project managers, quality specialists, HSE professionals, and operators with hands-on experience delivering infrastructure from design through construction, commissioning, and O&M.",
     "members": [
       {
         "name": "Mustafa Shriem, PMP",
         "role": "Founder and Managing Director",
-        "description": "Leads advisory engagements across renewable energy, water, and sustainable infrastructure. Focused on structuring long-term partnerships for clients in GCC and MENA markets.",
+        "description": "Leads the company's EPC and O&M delivery across solar PV, water treatment, and civil infrastructure, with single-point accountability from engineering through to handover.",
         "linkedin": "https://www.linkedin.com/in/mustafa-ali-shriem-pmp-732663234/",
         "image_url": "/images/uploads/mustafa-proffessional-photo.jpeg"
       },
       {
         "name": "Ali Shriem",
         "role": "Head of Construction",
-        "description": "Oversees project development, EPC coordination, and vendor strategy. Works closely with utilities and industrial partners to move programs from concept through delivery.",
+        "description": "Oversees construction and site execution, EPC delivery, and vendor management — moving projects from design through build, commissioning, and operations.",
         "linkedin": "https://www.linkedin.com/in/ali-mustafa-shriem-msc-a3477178/",
         "image_url": "/images/uploads/professional-pic-2.jpg"
       }
@@ -33,55 +33,55 @@
   },
   "intro": {
     "kicker": "Who We Are",
-    "title": "A consulting platform with technical depth",
-    "text": "SGS combines strategic advisory, project development, and technology coordination. We work with clients who need more than supply. They need a partner who can structure the opportunity, align the right stakeholders, and support execution."
+    "title": "A full-service EPC and O&M contractor",
+    "text": "We are a full-service EPC and O&M contractor delivering turnkey solutions across solar PV, industrial water treatment, and civil infrastructure. We design, procure, construct, commission, and operate – providing single-point accountability across the entire project lifecycle. Our track record: 5 industrial water treatment plants in Qatar. We apply the same execution excellence to solar PV and civil infrastructure projects."
   },
   "pillars": [
     {
       "kicker": "Mission",
-      "title": "Help clients move clean infrastructure from concept to action"
+      "title": "Deliver turnkey infrastructure — engineered, built, commissioned, and operated under single-point accountability"
     },
     {
       "kicker": "Vision",
-      "title": "Advance renewable energy and sustainable utility systems across growth markets"
+      "title": "Be the single-source EPC and O&M partner of choice across solar PV, water, and civil infrastructure"
     },
     {
       "kicker": "Approach",
-      "title": "Open collaboration trust and fit-for-purpose project partnerships"
+      "title": "Integrated engineering, construction, quality, and HSE across the entire value chain"
     }
   ],
   "market_focus": {
-    "kicker": "Market Focus",
-    "title": "Built for GCC and MENA with international reach",
-    "text": "SGS supports regional project delivery while working with international suppliers, research channels, and specialist vendors. That mix helps clients access stronger technologies and clearer delivery options.",
+    "kicker": "Track Record",
+    "title": "Proven in Qatar, building across sectors",
+    "text": "Our delivery capability is proven in Qatar, where we engineered, constructed, commissioned, and operated 5 industrial water treatment plants under full EPC contracts. The same EPC methodology, quality systems, and HSE standards now extend to solar PV and civil infrastructure projects.",
     "image_url": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1400&q=80",
-    "image_alt": "Regional infrastructure and energy network"
+    "image_alt": "Regional infrastructure network"
   },
   "why_section": {
     "kicker": "Why Clients Work With SGS",
-    "title": "Short and clear reasons to engage",
+    "title": "Single-source delivery, proven execution",
     "cards": [
       {
-        "title": "Renewable energy leads",
-        "text": "Solar and clean infrastructure sit at the center of the offer."
+        "title": "Turnkey EPC & O&M",
+        "text": "One partner from engineering and design to construction, commissioning, and handover."
       },
       {
-        "title": "Advisory mindset",
-        "text": "We structure projects, partnerships, and delivery pathways."
+        "title": "Solar PV capability",
+        "text": "Full EPC and O&M for utility-scale and distributed solar PV."
       },
       {
-        "title": "Technical credibility",
-        "text": "Water, desalination, wastewater, and EPC coordination remain core strengths."
+        "title": "Proven track record",
+        "text": "5 industrial water treatment plants delivered in Qatar (2016–2021)."
       },
       {
-        "title": "Long-term thinking",
-        "text": "We support execution, operations, and practical project continuity."
+        "title": "Quality & HSE built in",
+        "text": "QA/QC, inspection, testing, and HSE management across every project."
       }
     ]
   },
   "cta": {
     "kicker": "Work With SGS",
-    "title": "Engage a partner built for renewable infrastructure decisions",
+    "title": "Engage a single-source EPC and O&M partner for your next project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

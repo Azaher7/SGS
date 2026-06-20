@@ -1,92 +1,92 @@
 {
   "meta": {
-    "title": "Services | SGS",
-    "description": "SGS services across renewable energy consulting, solar advisory, water and wastewater, desalination, EPC coordination, O&M support, and procurement partnerships."
+    "title": "Services | SGS International — Turnkey EPC & O&M",
+    "description": "Integrated EPC and O&M services across solar PV, water treatment, and civil infrastructure: engineering & design, procurement & construction, quality, HSE, commissioning & O&M, and supporting technical advisory."
   },
   "hero": {
     "kicker": "Services",
-    "title": "Energy and infrastructure services",
-    "text": "Renewable energy sits first. Supporting technical services follow with equal clarity.",
+    "title": "Our Services – Turnkey Solutions from a Single Source",
+    "text": "We offer integrated EPC and O&M services across solar PV, water treatment, and civil infrastructure — covering the entire project lifecycle, with water treatment as our proven reference sector.",
     "image_url": "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Close view of a solar photovoltaic panel installation"
   },
   "service_panels": [
     {
       "number": "01",
-      "title": "Renewable Energy Consulting & Project Development",
-      "text": "Detailed engineering design packages, financial feasibility assessments, planning, structuring, and development support for solar and clean infrastructure projects.",
+      "title": "Engineering & Design",
+      "text": "Full multidiscipline engineering and design — the foundation of every turnkey project we deliver across solar PV, water, and civil infrastructure.",
       "bullets": [
-        "Technical Engineering Design Packages",
-        "Financial Feasibility Assessments",
-        "Technology advisory",
-        "Stakeholder Alignment"
+        "Process engineering",
+        "Mechanical engineering",
+        "Civil & structural design",
+        "Electrical engineering",
+        "Instrumentation & controls",
+        "Technical design packages & feasibility"
       ],
       "featured": true
     },
     {
       "number": "02",
-      "title": "Solar Infrastructure Advisory",
-      "text": "EPC + O&M support for utility-scale solar, rooftop systems, and broader clean power integration.",
+      "title": "Procurement & Construction (EPC)",
+      "text": "Full turnkey EPC delivery — we procure, build, and execute on site across solar PV, water treatment, and civil sectors.",
       "bullets": [
-        "PV and CSP pathways",
-        "Procurement guidance",
-        "Implementation coordination"
+        "Full turnkey EPC delivery",
+        "Project management & site execution",
+        "Solar PV, water & civil construction",
+        "Procurement & vendor management",
+        "Cross-border sourcing & logistics"
       ]
     },
     {
       "number": "03",
-      "title": "Water & Wastewater Solutions",
-      "text": "Advisory and O&M services for treatment, recycling, purification, and transport of water infrastructure systems.",
+      "title": "Quality Management",
+      "text": "QA/QC systems that protect performance, compliance, and asset life across the project lifecycle.",
       "bullets": [
-        "Treatment planning",
-        "Grey and black water systems",
-        "Industrial wastewater support"
+        "QA/QC planning & control",
+        "Inspection & testing",
+        "Materials & supplier compliance",
+        "Documentation & certification"
       ]
     },
     {
       "number": "04",
-      "title": "EPC Coordination & Delivery ",
-      "text": "Interface support between engineering, procurement, construction, specialist technologies and other relevant stakeholders to deliver turnkey construction projects.",
+      "title": "HSE Management",
+      "text": "Health, safety, and environmental management planned and enforced across every site.",
       "bullets": [
-        "Stakeholder coordination",
-        "Delivery planning",
-        "Execution support"
+        "Health & safety planning",
+        "Environmental management",
+        "Regulatory compliance",
+        "Site HSE supervision"
       ]
     },
     {
       "number": "05",
-      "title": "Operations & Maintenance Support",
-      "text": "Operational planning for continuity, service quality, and lifecycle performance for water or energy infrastructure assets.",
+      "title": "Commissioning & O&M",
+      "text": "From start-up and performance testing to long-term operations and maintenance through to handover.",
       "bullets": [
-        "Operational readiness",
-        "Support planning",
-        "Performance continuity"
+        "Commissioning & start-up",
+        "Performance testing",
+        "Operations & maintenance",
+        "Spare parts & lifecycle support",
+        "Operations through to handover"
       ]
     },
     {
       "number": "06",
-      "title": "JV / Consortium / PPP Facilitation",
-      "text": "Support for fit-for-purpose partnerships in complex infrastructure programs across different regions and countries. Free-zone / Offshore structure options. ",
+      "title": "Technical Advisory (Supporting)",
+      "text": "In-house advisory capability that supports — not replaces — our EPC delivery.",
       "bullets": [
-        "JV structuring",
-        "Consortium alignment",
-        "PPP coordination"
-      ]
-    },
-    {
-      "number": "07",
-      "title": "Procurement & Vendor Management",
-      "text": "Cross-border supplier, subcontractor, and vendor coordination for specialized delivery scopes.",
-      "bullets": [
-        "International sourcing",
-        "Vendor management",
-        "Commercial alignment"
+        "Feasibility & due diligence",
+        "Permitting & approvals",
+        "Project structuring",
+        "Joint-venture & PPP facilitation",
+        "Desalination & RO technology advisory"
       ]
     }
   ],
   "cta": {
     "kicker": "Service Engagement",
-    "title": "Define the right scope for your next project",
+    "title": "Define the right turnkey scope for your next project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }
