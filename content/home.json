@@ -1,19 +1,19 @@
 {
   "meta": {
     "title": "SGS International | EPC & O&M Contractor",
-    "description": "SGS is an EPC and O&M contractor delivering solar PV, water treatment, and civil infrastructure projects, with a track record of 5 water treatment plants in Qatar."
+    "description": "SGS is an EPC and O&M contractor delivering solar PV, water treatment, and civil infrastructure projects for clients across the GCC, MENA, and international markets."
   },
   "hero": {
     "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Utility-scale solar photovoltaic plant",
     "title": "EPC and O&M for solar, water, and civil infrastructure",
-    "subtitle": "We design, build, and operate infrastructure projects end to end — with a delivered track record of 5 water treatment plants in Qatar.",
+    "subtitle": "We design, build, and operate infrastructure projects end to end — for clients across the GCC, MENA, and international markets.",
     "actions": [
       { "label": "Our Services", "href": "services.html" },
       { "label": "View Projects", "href": "projects.html" }
     ],
     "stats": [
-      { "value": "5", "text": "Water treatment plants delivered in Qatar" },
+      { "value": "5", "text": "Water treatment plants delivered" },
       { "value": "2016–2021", "text": "Delivery and O&M track record" },
       { "value": "3", "text": "Core sectors — solar, water, civil" }
     ]
@@ -54,7 +54,7 @@
       },
       {
         "title": "Water Treatment",
-        "text": "Our proven sector — 5 treatment plants delivered in Qatar."
+        "text": "Our most proven sector, with 5 treatment plants delivered."
       },
       {
         "title": "Civil Infrastructure",
@@ -64,10 +64,10 @@
   },
   "projects_section": {
     "kicker": "Projects",
-    "title": "Proven delivery in Qatar",
+    "title": "A proven delivery record",
     "items": [
       {
-        "kicker": "Water Treatment | Qatar",
+        "kicker": "Water Treatment",
         "title": "5 plants delivered under full EPC and O&M",
         "image_url": "/images/uploads/ivan-bandura-6wsevhw1dzc-unsplash.jpg",
         "image_alt": "Industrial water treatment plant",
@@ -97,7 +97,7 @@
       },
       {
         "title": "Proven delivery",
-        "text": "5 water treatment plants completed in Qatar."
+        "text": "5 water treatment plants delivered and operated."
       },
       {
         "title": "Solar PV ready",

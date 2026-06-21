@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "About SGS International | EPC & O&M Contractor",
-    "description": "SGS is an EPC and O&M contractor delivering solar, water, and civil infrastructure projects, with a track record of 5 water treatment plants in Qatar."
+    "description": "SGS is an EPC and O&M contractor delivering solar, water, and civil infrastructure projects for clients across the GCC, MENA, and international markets."
   },
   "hero": {
     "kicker": "About",
@@ -34,7 +34,7 @@
   "intro": {
     "kicker": "Who We Are",
     "title": "Built on delivery",
-    "text": "We are an EPC and O&M contractor working across solar PV, water treatment, and civil infrastructure. Our track record is anchored by 5 water treatment plants delivered in Qatar, and we bring the same approach to every project."
+    "text": "We are an EPC and O&M contractor working across solar PV, water treatment, and civil infrastructure. Our track record is anchored by 5 delivered water treatment plants, and we apply the same approach to projects across the GCC, MENA, and international markets."
   },
   "pillars": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "kicker": "Vision",
-      "title": "Be a trusted EPC and O&M partner across solar, water, and civil sectors"
+      "title": "Be a trusted EPC and O&M partner across sectors and international markets"
     },
     {
       "kicker": "Approach",
@@ -51,11 +51,11 @@
     }
   ],
   "market_focus": {
-    "kicker": "Track Record",
-    "title": "Proven in Qatar",
-    "text": "We engineered, built, commissioned, and operated 5 water treatment plants in Qatar. That experience underpins how we approach solar and civil projects today.",
+    "kicker": "Our Reach",
+    "title": "Regional reach, international outlook",
+    "text": "We work with public and private sector clients across the GCC, MENA, Europe, and Africa — bringing a proven delivery record and a practical, hands-on approach to every market.",
     "image_url": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1400&q=80",
-    "image_alt": "Infrastructure network"
+    "image_alt": "International infrastructure and markets"
   },
   "cta": {
     "kicker": "Work With SGS",
