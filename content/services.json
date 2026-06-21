@@ -1,92 +1,71 @@
 {
   "meta": {
-    "title": "Services | SGS International — Turnkey EPC & O&M",
-    "description": "Integrated EPC and O&M services across solar PV, water treatment, and civil infrastructure: engineering & design, procurement & construction, quality, HSE, commissioning & O&M, and supporting technical advisory."
+    "title": "Services | SGS International",
+    "description": "Integrated EPC and O&M services across solar, water, and civil infrastructure: engineering & design, procurement & construction, commissioning & O&M, quality & HSE, and supporting technical advisory."
   },
   "hero": {
     "kicker": "Services",
-    "title": "Our Services – Turnkey Solutions from a Single Source",
-    "text": "We offer integrated EPC and O&M services across solar PV, water treatment, and civil infrastructure — covering the entire project lifecycle, with water treatment as our proven reference sector.",
+    "title": "Our Services",
+    "text": "Integrated EPC and O&M services across solar, water, and civil infrastructure — covering the full project from design to handover.",
     "image_url": "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Close view of a solar photovoltaic panel installation"
+    "image_alt": "Solar photovoltaic panel installation"
   },
   "service_panels": [
     {
       "number": "01",
       "title": "Engineering & Design",
-      "text": "Full multidiscipline engineering and design — the foundation of every turnkey project we deliver across solar PV, water, and civil infrastructure.",
+      "text": "Multidiscipline design that sets up every project for delivery.",
       "bullets": [
-        "Process engineering",
-        "Mechanical engineering",
-        "Civil & structural design",
-        "Electrical engineering",
-        "Instrumentation & controls",
-        "Technical design packages & feasibility"
+        "Process & mechanical",
+        "Civil & structural",
+        "Electrical & instrumentation"
       ],
       "featured": true
     },
     {
       "number": "02",
       "title": "Procurement & Construction (EPC)",
-      "text": "Full turnkey EPC delivery — we procure, build, and execute on site across solar PV, water treatment, and civil sectors.",
+      "text": "Full EPC delivery, from procurement through to site execution.",
       "bullets": [
-        "Full turnkey EPC delivery",
-        "Project management & site execution",
-        "Solar PV, water & civil construction",
-        "Procurement & vendor management",
-        "Cross-border sourcing & logistics"
+        "Turnkey EPC delivery",
+        "Project management",
+        "Procurement & vendor management"
       ]
     },
     {
       "number": "03",
-      "title": "Quality Management",
-      "text": "QA/QC systems that protect performance, compliance, and asset life across the project lifecycle.",
+      "title": "Commissioning & O&M",
+      "text": "Start-up, performance testing, and operations through to handover.",
       "bullets": [
-        "QA/QC planning & control",
-        "Inspection & testing",
-        "Materials & supplier compliance",
-        "Documentation & certification"
+        "Commissioning & start-up",
+        "Operations & maintenance",
+        "Handover support"
       ]
     },
     {
       "number": "04",
-      "title": "HSE Management",
-      "text": "Health, safety, and environmental management planned and enforced across every site.",
+      "title": "Quality & HSE",
+      "text": "Quality and safety management built into every project.",
       "bullets": [
-        "Health & safety planning",
-        "Environmental management",
-        "Regulatory compliance",
-        "Site HSE supervision"
+        "QA/QC & inspection",
+        "Testing & compliance",
+        "Site HSE management"
       ]
     },
     {
       "number": "05",
-      "title": "Commissioning & O&M",
-      "text": "From start-up and performance testing to long-term operations and maintenance through to handover.",
-      "bullets": [
-        "Commissioning & start-up",
-        "Performance testing",
-        "Operations & maintenance",
-        "Spare parts & lifecycle support",
-        "Operations through to handover"
-      ]
-    },
-    {
-      "number": "06",
-      "title": "Technical Advisory (Supporting)",
-      "text": "In-house advisory capability that supports — not replaces — our EPC delivery.",
+      "title": "Technical Advisory",
+      "text": "Supporting advisory that helps shape and de-risk projects.",
       "bullets": [
         "Feasibility & due diligence",
         "Permitting & approvals",
-        "Project structuring",
-        "Joint-venture & PPP facilitation",
-        "Desalination & RO technology advisory"
+        "Project structuring"
       ]
     }
   ],
   "cta": {
     "kicker": "Service Engagement",
-    "title": "Define the right turnkey scope for your next project",
+    "title": "Let's scope your project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

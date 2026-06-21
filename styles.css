@@ -2014,3 +2014,10 @@ p { margin: 0; color: var(--text-soft); }
     grid-template-columns: 6.5rem 1fr;
   }
 }
+
+/* Centered section action (e.g. "View all projects" on home) */
+.section-actions {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}

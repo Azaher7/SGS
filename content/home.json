@@ -1,36 +1,36 @@
 {
   "meta": {
-    "title": "SGS International | Turnkey EPC & O&M Contractor – Solar PV, Water & Civil",
-    "description": "SGS is a turnkey EPC and O&M contractor delivering solar PV, industrial water treatment, and civil infrastructure projects. 5 water treatment plants delivered in Qatar (2016–2021)."
+    "title": "SGS International | EPC & O&M Contractor",
+    "description": "SGS is an EPC and O&M contractor delivering solar PV, water treatment, and civil infrastructure projects, with a track record of 5 water treatment plants in Qatar."
   },
   "hero": {
     "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
     "image_alt": "Utility-scale solar photovoltaic plant",
-    "title": "Turnkey EPC & O&M Solutions – Solar PV, Water Treatment, and Civil Infrastructure",
-    "subtitle": "5 industrial water treatment plants delivered in Qatar (2016–2021) – full EPC, commissioning, and O&M through to handover. Expanding our turnkey solutions across solar PV and civil infrastructure.",
+    "title": "EPC and O&M for solar, water, and civil infrastructure",
+    "subtitle": "We design, build, and operate infrastructure projects end to end — with a delivered track record of 5 water treatment plants in Qatar.",
     "actions": [
       { "label": "Our Services", "href": "services.html" },
       { "label": "View Projects", "href": "projects.html" }
     ],
     "stats": [
-      { "value": "5", "text": "Industrial water treatment plants delivered in Qatar" },
-      { "value": "2016–2021", "text": "Full EPC, commissioning, and O&M track record" },
-      { "value": "Qatar", "text": "Single-source project execution and delivery" }
+      { "value": "5", "text": "Water treatment plants delivered in Qatar" },
+      { "value": "2016–2021", "text": "Delivery and O&M track record" },
+      { "value": "3", "text": "Core sectors — solar, water, civil" }
     ]
   },
   "credibility": {
-    "summary": "We are your single-source partner for industrial infrastructure — covering solar PV, water treatment, and civil projects from engineering and design through to construction, commissioning, and handover.",
+    "summary": "We engineer, build, and operate infrastructure across solar PV, water treatment, and civil projects.",
     "tags": [
-      "Turnkey EPC & O&M",
       "Solar PV",
       "Water treatment",
-      "Civil infrastructure"
+      "Civil infrastructure",
+      "EPC & O&M"
     ]
   },
   "about_intro": {
-    "title": "A full-service EPC & O&M contractor",
-    "text": "We design, procure, construct, commission, and operate — delivering turnkey solutions across solar PV, industrial water treatment, and civil infrastructure with single-point accountability. Our proven track record: 5 industrial water treatment plants delivered in Qatar.",
-    "link_label": "More about SGS",
+    "title": "What we do",
+    "text": "We design, build, commission, and operate infrastructure projects — giving clients a single point of accountability from start through to handover.",
+    "link_label": "About us",
     "link_href": "about.html",
     "images": [
       {
@@ -44,125 +44,70 @@
     ]
   },
   "services_section": {
-    "kicker": "Capabilities",
-    "title": "Full-service capability across three core sectors",
+    "kicker": "Sectors",
+    "title": "What we deliver",
     "cards": [
       {
-        "title": "Solar PV (EPC & O&M)",
-        "text": "We offer full EPC and O&M services for utility-scale and distributed solar PV, backed by our proven project delivery systems.",
+        "title": "Solar PV",
+        "text": "EPC and O&M for utility-scale and distributed solar PV.",
         "highlight": true
       },
       {
-        "title": "Industrial Water Treatment",
-        "text": "Our proven sector — 5 industrial water treatment plants delivered in Qatar under full EPC and O&M contracts."
+        "title": "Water Treatment",
+        "text": "Our proven sector — 5 treatment plants delivered in Qatar."
       },
       {
         "title": "Civil Infrastructure",
-        "text": "Turnkey civil works — foundations, structures, and site execution delivered through our integrated EPC systems."
-      },
-      {
-        "title": "Commissioning & O&M",
-        "text": "Start-up, performance testing, operations, and maintenance through to handover."
-      }
-    ]
-  },
-  "solutions_section": {
-    "kicker": "Sectors",
-    "title": "Three core sectors, one single-source partner",
-    "rows": [
-      {
-        "type": "Solar PV / Renewables",
-        "title": "Full EPC and O&M for utility-scale and distributed solar PV",
-        "text": "We offer complete solar PV delivery — engineering, procurement, construction, commissioning, and O&M — backed by the project delivery systems proven across our water treatment plants.",
-        "image_url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1400&q=80",
-        "image_alt": "Solar photovoltaic array"
-      },
-      {
-        "type": "Industrial Water Treatment",
-        "title": "Our proven, delivered track record — 5 plants in Qatar",
-        "text": "We engineered, built, commissioned, and operated 5 industrial water treatment plants in Qatar under full EPC contracts, with O&M provided through to handover in 2021.",
-        "image_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
-        "image_alt": "Industrial water treatment infrastructure",
-        "reverse": true
-      },
-      {
-        "type": "Civil Infrastructure",
-        "title": "Turnkey civil delivery from foundations to handover",
-        "text": "We offer full EPC and O&M for civil infrastructure — site works, foundations, structures, and steel buildings — delivered with the same quality and HSE systems proven on our water projects.",
-        "image_url": "/images/uploads/subhash-chand-t-q7fvajgha-unsplash-1-.jpg",
-        "image_alt": "Civil infrastructure construction"
+        "text": "Foundations, structures, and site works delivered to standard."
       }
     ]
   },
   "projects_section": {
     "kicker": "Projects",
-    "title": "Proven delivery — 5 water treatment plants in Qatar",
+    "title": "Proven delivery in Qatar",
     "items": [
       {
-        "kicker": "Industrial Water Treatment | Qatar",
-        "title": "5 plants delivered under full EPC, commissioning, and O&M",
+        "kicker": "Water Treatment | Qatar",
+        "title": "5 plants delivered under full EPC and O&M",
         "image_url": "/images/uploads/ivan-bandura-6wsevhw1dzc-unsplash.jpg",
         "image_alt": "Industrial water treatment plant",
         "large": true
       },
       {
-        "kicker": "Proven EPC Methodology",
-        "title": "Quality and HSE systems demonstrated across every plant",
+        "kicker": "Engineering & Construction",
+        "title": "Built, commissioned, and operated to standard",
         "image_url": "/images/uploads/powder-coating-plant-manufacturer-iquuvwbi1nc-unsplash.jpg",
         "image_alt": "Industrial process plant"
       },
       {
-        "kicker": "Transferable Capability",
-        "title": "The same delivery systems now applied to solar PV and civil infrastructure",
+        "kicker": "Growing Capability",
+        "title": "Bringing the same delivery to solar and civil work",
         "image_url": "/images/uploads/derek-sutton-rfgsyfb_5ow-unsplash.jpg",
         "image_alt": "Solar and infrastructure delivery"
       }
     ]
   },
-  "presence_section": {
-    "kicker": "Single-Source Delivery",
-    "title": "One partner across the entire project value chain",
-    "text": "From engineering and design through procurement, construction, commissioning, and O&M, we deliver complete projects under one accountable contract — across solar PV, water treatment, and civil infrastructure.",
-    "points": [
-      {
-        "title": "Engineering & EPC",
-        "text": "Process, civil, mechanical, electrical, and instrumentation"
-      },
-      {
-        "title": "Quality & HSE",
-        "text": "Integrated QA/QC and HSE management"
-      },
-      {
-        "title": "Commissioning & O&M",
-        "text": "Start-up, operations, and handover"
-      }
-    ]
-  },
   "why_section": {
     "kicker": "Why SGS",
-    "title": "Built to deliver turnkey infrastructure",
+    "title": "Why work with us",
     "cards": [
       {
-        "title": "Single-source accountability",
-        "text": "One contract from engineering and design to construction, commissioning, and handover."
+        "title": "Single point of accountability",
+        "text": "One team from design through to handover."
+      },
+      {
+        "title": "Proven delivery",
+        "text": "5 water treatment plants completed in Qatar."
       },
       {
         "title": "Solar PV ready",
-        "text": "Full EPC and O&M capability for utility-scale and distributed solar PV."
-      },
-      {
-        "title": "Proven execution",
-        "text": "5 industrial water treatment plants delivered in Qatar between 2016 and 2021."
-      },
-      {
-        "title": "Quality & HSE built in",
-        "text": "QA/QC, inspection, testing, and HSE management applied across every project."
+        "text": "Full EPC and O&M capability for solar projects."
       }
     ]
   },
   "cta": {
     "kicker": "Start a Project",
-    "title": "Build your next project with a single-source EPC & O&M partner",
+    "title": "Let's talk about your next project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

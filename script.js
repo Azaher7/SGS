@@ -172,22 +172,7 @@ const applyHome = (data) => {
     </article>
   `);
 
-  setText(".section-visual .section-head .kicker", data?.solutions_section?.kicker);
-  setText(".section-visual .section-head h2", data?.solutions_section?.title);
-  renderList(".solution-rows", data?.solutions_section?.rows, (item, index) => `
-    <article class="solution-row ${(item?.reverse || index % 2 === 1) ? "reverse" : ""} reveal">
-      <div class="solution-image">
-        <img src="${escapeHtml(item?.image_url || "")}" alt="${escapeHtml(item?.image_alt || "")}">
-      </div>
-      <div class="solution-copy">
-        <p class="solution-type">${escapeHtml(item?.type || "")}</p>
-        <h3>${escapeHtml(item?.title || "")}</h3>
-        <p>${escapeHtml(item?.text || "")}</p>
-      </div>
-    </article>
-  `);
-
-  const projectHead = document.querySelectorAll("main .section .section-head")[2];
+  const projectHead = document.querySelector('[data-home="projects"]');
   if (projectHead) {
     setText(projectHead.querySelector(".kicker"), data?.projects_section?.kicker);
     setText(projectHead.querySelector("h2"), data?.projects_section?.title);
@@ -199,16 +184,6 @@ const applyHome = (data) => {
         <p>${escapeHtml(item?.kicker || "")}</p>
         <h3>${escapeHtml(item?.title || "")}</h3>
       </div>
-    </article>
-  `);
-
-  setText(".presence-copy .kicker", data?.presence_section?.kicker);
-  setText(".presence-copy h2", data?.presence_section?.title);
-  setText(".presence-copy p:last-child", data?.presence_section?.text);
-  renderList(".presence-points", data?.presence_section?.points, (item) => `
-    <article>
-      <strong>${escapeHtml(item?.title || "")}</strong>
-      <span>${escapeHtml(item?.text || "")}</span>
     </article>
   `);
 
@@ -334,27 +309,6 @@ const applyServices = (data) => {
       <ul>
         ${(item?.bullets || []).map((bullet) => `<li>${escapeHtml(bullet || "")}</li>`).join("")}
       </ul>
-    </article>
-  `);
-  setText(".cta-layout .kicker", data?.cta?.kicker);
-  setText(".cta-layout h2", data?.cta?.title);
-  setText(".cta-layout .button", data?.cta?.button_label);
-  setAttr(".cta-layout .button", "href", data?.cta?.button_href);
-};
-
-const applySolutions = (data) => {
-  if (!data) return;
-  applyPageHero(data);
-  renderList(".visual-list", data?.solutions, (item, index) => `
-    <article class="visual-solution ${(item?.reverse || index % 2 === 1) ? "reverse" : ""} reveal">
-      <div class="visual-media">
-        <img src="${escapeHtml(item?.image_url || "")}" alt="${escapeHtml(item?.image_alt || "")}">
-      </div>
-      <div class="visual-copy">
-        <p class="kicker">${escapeHtml(item?.kicker || "")}</p>
-        <h2>${escapeHtml(item?.title || "")}</h2>
-        <p>${escapeHtml(item?.text || "")}</p>
-      </div>
     </article>
   `);
   setText(".cta-layout .kicker", data?.cta?.kicker);
@@ -514,7 +468,6 @@ const fetchJson = async (path) => {
     home: applyHome,
     about: applyAbout,
     services: applyServices,
-    solutions: applySolutions,
     projects: applyProjects,
     contact: applyContact
   };

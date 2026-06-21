@@ -8,26 +8,24 @@
       { "label": "Home", "href": "index.html" },
       { "label": "About", "href": "about.html" },
       { "label": "Services", "href": "services.html" },
-      { "label": "Solutions", "href": "solutions.html" },
       { "label": "Projects", "href": "projects.html" },
       { "label": "Contact", "href": "contact.html" }
     ],
     "cta": { "label": "Request a Consultation", "href": "contact.html" }
   },
   "footer": {
-    "description": "Turnkey EPC and O&M contractor delivering solar PV, industrial water treatment, and civil infrastructure projects from a single source.",
+    "description": "EPC and O&M contractor for solar PV, water treatment, and civil infrastructure projects.",
     "pages_title": "Pages",
     "pages_links": [
       { "label": "About", "href": "about.html" },
       { "label": "Services", "href": "services.html" },
-      { "label": "Solutions", "href": "solutions.html" },
       { "label": "Projects", "href": "projects.html" },
       { "label": "Contact", "href": "contact.html" }
     ],
     "focus_title": "Sectors",
     "focus_items": [
-      "Solar PV (EPC & O&M)",
-      "Industrial water treatment",
+      "Solar PV",
+      "Water treatment",
       "Civil infrastructure",
       "Commissioning & O&M"
     ],
