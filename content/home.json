@@ -9,13 +9,28 @@
     "title": "EPC and O&M for solar, water, and civil infrastructure",
     "subtitle": "We design, build, and operate infrastructure projects end to end — for clients across the GCC, MENA, and international markets.",
     "actions": [
-      { "label": "Our Services", "href": "services.html" },
-      { "label": "View Projects", "href": "projects.html" }
+      {
+        "label": "Our Services",
+        "href": "services.html"
+      },
+      {
+        "label": "View Projects",
+        "href": "projects.html"
+      }
     ],
     "stats": [
-      { "value": "5", "text": "Water treatment plants delivered" },
-      { "value": "2016–2021", "text": "Delivery and O&M track record" },
-      { "value": "3", "text": "Core sectors — solar, water, civil" }
+      {
+        "value": "5",
+        "text": "Water treatment plants delivered"
+      },
+      {
+        "value": "2016–2021",
+        "text": "Delivery and O&M track record"
+      },
+      {
+        "value": "3",
+        "text": "Core sectors — Solar, Water, Civil."
+      }
     ]
   },
   "credibility": {
