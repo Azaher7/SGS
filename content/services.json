@@ -1,92 +1,71 @@
 {
   "meta": {
-    "title": "Services | SGS",
-    "description": "SGS services across renewable energy consulting, solar advisory, water and wastewater, desalination, EPC coordination, O&M support, and procurement partnerships."
+    "title": "Services | SGS International",
+    "description": "Integrated EPC and O&M services across solar, water, and civil infrastructure: engineering & design, procurement & construction, commissioning & O&M, quality & HSE, and supporting technical advisory."
   },
   "hero": {
     "kicker": "Services",
-    "title": "Energy and infrastructure services",
-    "text": "Renewable energy sits first. Supporting technical services follow with equal clarity.",
+    "title": "Our Services",
+    "text": "Integrated EPC and O&M services across solar, water, and civil infrastructure — covering the full project from design to handover.",
     "image_url": "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Close view of a solar photovoltaic panel installation"
+    "image_alt": "Solar photovoltaic panel installation"
   },
   "service_panels": [
     {
       "number": "01",
-      "title": "Renewable Energy Consulting & Project Development",
-      "text": "Detailed engineering design packages, financial feasibility assessments, planning, structuring, and development support for solar and clean infrastructure projects.",
+      "title": "Engineering & Design",
+      "text": "Multidiscipline design that sets up every project for delivery.",
       "bullets": [
-        "Technical Engineering Design Packages",
-        "Financial Feasibility Assessments",
-        "Technology advisory",
-        "Stakeholder Alignment"
+        "Process & mechanical",
+        "Civil & structural",
+        "Electrical & instrumentation"
       ],
       "featured": true
     },
     {
       "number": "02",
-      "title": "Solar Infrastructure Advisory",
-      "text": "EPC + O&M support for utility-scale solar, rooftop systems, and broader clean power integration.",
+      "title": "Procurement & Construction (EPC)",
+      "text": "Full EPC delivery, from procurement through to site execution.",
       "bullets": [
-        "PV and CSP pathways",
-        "Procurement guidance",
-        "Implementation coordination"
+        "Turnkey EPC delivery",
+        "Project management",
+        "Procurement & vendor management"
       ]
     },
     {
       "number": "03",
-      "title": "Water & Wastewater Solutions",
-      "text": "Advisory and O&M services for treatment, recycling, purification, and transport of water infrastructure systems.",
+      "title": "Commissioning & O&M",
+      "text": "Start-up, performance testing, and operations through to handover.",
       "bullets": [
-        "Treatment planning",
-        "Grey and black water systems",
-        "Industrial wastewater support"
+        "Commissioning & start-up",
+        "Operations & maintenance",
+        "Handover support"
       ]
     },
     {
       "number": "04",
-      "title": "EPC Coordination & Delivery ",
-      "text": "Interface support between engineering, procurement, construction, specialist technologies and other relevant stakeholders to deliver turnkey construction projects.",
+      "title": "Quality & HSE",
+      "text": "Quality and safety management built into every project.",
       "bullets": [
-        "Stakeholder coordination",
-        "Delivery planning",
-        "Execution support"
+        "QA/QC & inspection",
+        "Testing & compliance",
+        "Site HSE management"
       ]
     },
     {
       "number": "05",
-      "title": "Operations & Maintenance Support",
-      "text": "Operational planning for continuity, service quality, and lifecycle performance for water or energy infrastructure assets.",
+      "title": "Technical Advisory",
+      "text": "Supporting advisory that helps shape and de-risk projects.",
       "bullets": [
-        "Operational readiness",
-        "Support planning",
-        "Performance continuity"
-      ]
-    },
-    {
-      "number": "06",
-      "title": "JV / Consortium / PPP Facilitation",
-      "text": "Support for fit-for-purpose partnerships in complex infrastructure programs across different regions and countries. Free-zone / Offshore structure options. ",
-      "bullets": [
-        "JV structuring",
-        "Consortium alignment",
-        "PPP coordination"
-      ]
-    },
-    {
-      "number": "07",
-      "title": "Procurement & Vendor Management",
-      "text": "Cross-border supplier, subcontractor, and vendor coordination for specialized delivery scopes.",
-      "bullets": [
-        "International sourcing",
-        "Vendor management",
-        "Commercial alignment"
+        "Feasibility & due diligence",
+        "Permitting & approvals",
+        "Project structuring"
       ]
     }
   ],
   "cta": {
     "kicker": "Service Engagement",
-    "title": "Define the right scope for your next project",
+    "title": "Let's scope your project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
   }

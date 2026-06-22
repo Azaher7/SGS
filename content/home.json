@@ -1,177 +1,114 @@
 {
-  "projects_section": {
-    "kicker": "Projects",
-    "title": "Image-led project stories with regional credibility",
-    "items": [
-      {
-        "kicker": "GCC Solar Advisory",
-        "title": "Utility-scale solar development support for a high-growth regional program",
-        "image_url": "/images/uploads/val-toch-qtvmhpsetxc-unsplash.jpg",
-        "image_alt": "Solar plant project",
-        "large": true
-      },
-      {
-        "kicker": "Hybrid Infrastructure",
-        "title": "Water-energy project coordination",
-        "image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1000&q=80",
-        "image_alt": "Hybrid water energy infrastructure"
-      },
-      {
-        "kicker": "Industrial Support",
-        "title": "Technical partner and vendor alignment",
-        "image_url": "/images/uploads/ahsanization-mji2i9kjpq8-unsplash.jpg",
-        "image_alt": "Industrial technical support project"
-      }
-    ]
+  "meta": {
+    "title": "SGS International | EPC & O&M Contractor",
+    "description": "SGS is an EPC and O&M contractor delivering solar PV, water treatment, and civil infrastructure projects for clients across the GCC, MENA, and international markets."
   },
-  "solutions_section": {
-    "kicker": "Solutions",
-    "title": "Built for complex infrastructure environments",
-    "rows": [
-      {
-        "type": "Solar & Renewable Energy",
-        "title": "Utility-scale solar pathways with commercial and technical clarity",
-        "text": "SGS supports technology sourcing, partner alignment, and project structuring for clean energy delivery.",
-        "image_url": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1400&q=80",
-        "image_alt": "Solar panels in desert"
-      },
-      {
-        "type": "Water, Wastewater & Desalination",
-        "title": "Technical systems designed for resilience and long-term performance",
-        "text": "From treatment to RO and desalination, SGS helps shape sustainable utility solutions for demanding environments.",
-        "image_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
-        "image_alt": "Water treatment infrastructure",
-        "reverse": true
-      }
-    ]
-  },
-  "presence_section": {
-    "kicker": "International Presence",
-    "title": "Regional execution and international reach",
-    "text": "SGS works across GCC and MENA while connecting clients to international suppliers, specialized vendors, and technical partners across Europe and Asia Pacific.",
-    "points": [
-      {
-        "title": "Regional focus",
-        "text": "GCC and MENA infrastructure markets"
-      },
-      {
-        "title": "Partnership model",
-        "text": "JV, consortium, and PPP support"
-      },
-      {
-        "title": "Delivery support",
-        "text": "Procurement, coordination, and O&M planning"
-      }
-    ]
-  },
-  "services_section": {
-    "kicker": "Services",
-    "title": "Clear services and consulting-led delivery",
-    "cards": [
-      {
-        "title": "Renewable Energy Consulting",
-        "text": "Market-ready advisory for solar and clean infrastructure projects.",
-        "highlight": true
-      },
-      {
-        "title": "Project Development",
-        "text": "From concept framing to partnership and execution planning."
-      },
-      {
-        "title": "Water & Wastewater",
-        "text": "Integrated support for treatment, recovery, and utility systems."
-      },
-      {
-        "title": "Desalination & RO",
-        "text": "Technical advisory for reverse osmosis and plant strategy."
-      }
+  "hero": {
+    "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
+    "image_alt": "Utility-scale solar photovoltaic plant",
+    "title": "EPC and O&M for solar, water, and civil infrastructure",
+    "subtitle": "We design, build, and operate infrastructure projects end to end — for clients across the GCC, MENA, and international markets.",
+    "actions": [
+      { "label": "Our Services", "href": "services.html" },
+      { "label": "View Projects", "href": "projects.html" }
+    ],
+    "stats": [
+      { "value": "5", "text": "Water treatment plants delivered" },
+      { "value": "2016–2021", "text": "Delivery and O&M track record" },
+      { "value": "3", "text": "Core sectors — solar, water, civil" }
     ]
   },
   "credibility": {
-    "summary": "Renewable energy first. Water, desalination, and infrastructure expertise built in.",
+    "summary": "We engineer, build, and operate infrastructure across solar PV, water treatment, and civil projects.",
     "tags": [
-      "Solar advisory",
-      "Project development",
-      "JV / PPP facilitation",
-      "Technical coordination"
+      "Solar PV",
+      "Water treatment",
+      "Civil infrastructure",
+      "EPC & O&M"
     ]
-  },
-  "meta": {
-    "title": "SGS | Renewable Energy Consulting",
-    "description": "SGS is an international renewable energy consulting and project development firm serving GCC, MENA, and global sustainable infrastructure markets."
-  },
-  "why_section": {
-    "kicker": "Why Choose SGS",
-    "title": "Built for serious infrastructure decisions",
-    "cards": [
-      {
-        "title": "Consulting-first",
-        "text": "SGS leads with strategy, not contractor messaging."
-      },
-      {
-        "title": "Renewable-led",
-        "text": "Solar and clean infrastructure shape the core offer."
-      },
-      {
-        "title": "Technically grounded",
-        "text": "Water, RO, wastewater, and EPC support remain built in."
-      },
-      {
-        "title": "Cross-border capable",
-        "text": "Strong partner and vendor coordination across markets."
-      }
-    ]
-  },
-  "cta": {
-    "kicker": "Start a Conversation",
-    "title": "Shape your next renewable infrastructure project with confidence",
-    "button_label": "Request a Consultation",
-    "button_href": "contact.html"
   },
   "about_intro": {
-    "title": "About SGS",
-    "text": "We support clients with reliable consulting, operational support, and project expertise.",
-    "link_label": "Learn more about SGS",
+    "title": "What we do",
+    "text": "We design, build, commission, and operate infrastructure projects — giving clients a single point of accountability from start through to handover.",
+    "link_label": "About us",
     "link_href": "about.html",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Renewable energy infrastructure"
+        "alt": "Infrastructure and energy landscape"
       },
       {
         "url": "/images/uploads/michael-fortsch-czqpp2rrjd4-unsplash.jpg",
-        "alt": "Infrastructure planning environment"
+        "alt": "Project delivery environment"
       }
     ]
   },
-  "hero": {
-    "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80",
-    "image_alt": "Large solar farm",
-    "title": "Powering Sustainable Progress",
-    "subtitle": "International consulting for renewable energy and infrastructure projects.",
-    "actions": [
+  "services_section": {
+    "kicker": "Sectors",
+    "title": "What we deliver",
+    "cards": [
       {
-        "label": "Our Services",
-        "href": "services.html"
+        "title": "Solar PV",
+        "text": "EPC and O&M for utility-scale and distributed solar PV.",
+        "highlight": true
       },
       {
-        "label": "Featured Projects",
-        "href": "projects.html"
-      }
-    ],
-    "stats": [
-      {
-        "value": "2015",
-        "text": "Established to address regional energy and water demand"
+        "title": "Water Treatment",
+        "text": "Our most proven sector, with 5 treatment plants delivered."
       },
       {
-        "value": "20+",
-        "text": "Specialized technology vendor relationships across target markets"
-      },
-      {
-        "value": "GCC / MENA / Europe",
-        "text": "Project development, procurement, and partnership support"
+        "title": "Civil Infrastructure",
+        "text": "Foundations, structures, and site works delivered to standard."
       }
     ]
+  },
+  "projects_section": {
+    "kicker": "Projects",
+    "title": "A proven delivery record",
+    "items": [
+      {
+        "kicker": "Water Treatment",
+        "title": "5 plants delivered under full EPC and O&M",
+        "image_url": "/images/uploads/ivan-bandura-6wsevhw1dzc-unsplash.jpg",
+        "image_alt": "Industrial water treatment plant",
+        "large": true
+      },
+      {
+        "kicker": "Engineering & Construction",
+        "title": "Built, commissioned, and operated to standard",
+        "image_url": "/images/uploads/powder-coating-plant-manufacturer-iquuvwbi1nc-unsplash.jpg",
+        "image_alt": "Industrial process plant"
+      },
+      {
+        "kicker": "Growing Capability",
+        "title": "Bringing the same delivery to solar and civil work",
+        "image_url": "/images/uploads/derek-sutton-rfgsyfb_5ow-unsplash.jpg",
+        "image_alt": "Solar and infrastructure delivery"
+      }
+    ]
+  },
+  "why_section": {
+    "kicker": "Why SGS",
+    "title": "Why work with us",
+    "cards": [
+      {
+        "title": "Single point of accountability",
+        "text": "One team from design through to handover."
+      },
+      {
+        "title": "Proven delivery",
+        "text": "5 water treatment plants delivered and operated."
+      },
+      {
+        "title": "Solar PV ready",
+        "text": "Full EPC and O&M capability for solar projects."
+      }
+    ]
+  },
+  "cta": {
+    "kicker": "Start a Project",
+    "title": "Let's talk about your next project",
+    "button_label": "Request a Consultation",
+    "button_href": "contact.html"
   }
 }

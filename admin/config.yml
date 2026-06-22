@@ -120,22 +120,6 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Text", name: "text", widget: "text" }
                   - { label: "Highlight Card", name: "highlight", widget: "boolean", required: false }
-          - label: "Solutions Section"
-            name: "solutions_section"
-            widget: "object"
-            fields:
-              - { label: "Kicker", name: "kicker", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - label: "Solution Rows"
-                name: "rows"
-                widget: "list"
-                fields:
-                  - { label: "Type", name: "type", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Text", name: "text", widget: "text" }
-                  - { label: "Image", name: "image_url", widget: "image" }
-                  - { label: "Image Alt", name: "image_alt", widget: "string" }
-                  - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
           - label: "Projects Section"
             name: "projects_section"
             widget: "object"
@@ -151,19 +135,6 @@ collections:
                   - { label: "Image", name: "image_url", widget: "image" }
                   - { label: "Image Alt", name: "image_alt", widget: "string" }
                   - { label: "Large Tile", name: "large", widget: "boolean", required: false }
-          - label: "Presence Section"
-            name: "presence_section"
-            widget: "object"
-            fields:
-              - { label: "Kicker", name: "kicker", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
-              - label: "Presence Points"
-                name: "points"
-                widget: "list"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Text", name: "text", widget: "string" }
           - label: "Why Choose Section"
             name: "why_section"
             widget: "object"
@@ -261,40 +232,35 @@ collections:
               - { label: "Featured", name: "featured", widget: "boolean", required: false }
           - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
 
-      - file: "content/solutions.json"
-        label: "Solutions Page"
-        name: "solutions"
-        fields:
-          - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
-          - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
-          - label: "Solution Rows"
-            name: "solutions"
-            widget: "list"
-            fields:
-              - { label: "Kicker", name: "kicker", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
-              - { label: "Image", name: "image_url", widget: "image" }
-              - { label: "Image Alt", name: "image_alt", widget: "string" }
-              - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
-          - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
-
       - file: "content/projects.json"
         label: "Projects Page"
         name: "projects"
         fields:
           - { label: "SEO", name: "meta", widget: "object", fields: [{ label: "Page Title", name: "title", widget: "string" }, { label: "Meta Description", name: "description", widget: "text" }] }
           - { label: "Hero", name: "hero", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Image", name: "image_url", widget: "image" }, { label: "Image Alt", name: "image_alt", widget: "string" }] }
-          - label: "Project Stories"
-            name: "stories"
-            widget: "list"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
             fields:
               - { label: "Kicker", name: "kicker", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text" }
+          - label: "Project Cards (Plants)"
+            name: "plants"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Card Kicker", name: "kicker", widget: "string" }
+              - { label: "Plant Name", name: "name", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Capacity", name: "capacity", widget: "string" }
+              - { label: "Key Technology", name: "technology", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
               - { label: "Image", name: "image_url", widget: "image" }
               - { label: "Image Alt", name: "image_alt", widget: "string" }
-              - { label: "Reverse Layout", name: "reverse", widget: "boolean", required: false }
+              - { label: "Details Page Link", name: "href", widget: "string" }
+          - { label: "Transferability Statement", name: "transferability", widget: "text" }
+          - { label: "Solar Note", name: "solar_note", widget: "text" }
           - { label: "CTA", name: "cta", widget: "object", fields: [{ label: "Kicker", name: "kicker", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Button Label", name: "button_label", widget: "string" }, { label: "Button Link", name: "button_href", widget: "string" }] }
 
       - file: "content/contact.json"

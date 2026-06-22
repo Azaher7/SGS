@@ -8,32 +8,30 @@
       { "label": "Home", "href": "index.html" },
       { "label": "About", "href": "about.html" },
       { "label": "Services", "href": "services.html" },
-      { "label": "Solutions", "href": "solutions.html" },
       { "label": "Projects", "href": "projects.html" },
       { "label": "Contact", "href": "contact.html" }
     ],
     "cta": { "label": "Request a Consultation", "href": "contact.html" }
   },
   "footer": {
-    "description": "International renewable energy consulting, project development, and sustainable infrastructure advisory.",
+    "description": "EPC and O&M contractor for solar PV, water treatment, and civil infrastructure projects.",
     "pages_title": "Pages",
     "pages_links": [
       { "label": "About", "href": "about.html" },
       { "label": "Services", "href": "services.html" },
-      { "label": "Solutions", "href": "solutions.html" },
       { "label": "Projects", "href": "projects.html" },
       { "label": "Contact", "href": "contact.html" }
     ],
-    "focus_title": "Focus",
+    "focus_title": "Sectors",
     "focus_items": [
-      "Renewable energy",
-      "Solar infrastructure",
-      "Water and desalination",
-      "Partnership facilitation"
+      "Solar PV",
+      "Water treatment",
+      "Civil infrastructure",
+      "Commissioning & O&M"
     ],
     "contact_title": "Contact",
     "contact_lines": [
-      "Project consultations by appointment",
+      "Project inquiries by appointment",
       "GCC, MENA, and international markets"
     ],
     "contact_link_label": "Send an inquiry",
