@@ -24,7 +24,7 @@
       },
       {
         "name": "Ali Shriem",
-        "role": "Head of Construction",
+        "role": "Construction Director",
         "description": "Leads construction and site execution, from procurement through to build and commissioning.",
         "linkedin": "https://www.linkedin.com/in/ali-mustafa-shriem-msc-a3477178/",
         "image_url": "/images/uploads/professional-pic-2.jpg"
@@ -62,5 +62,9 @@
     "title": "Let's talk about your project",
     "button_label": "Request a Consultation",
     "button_href": "contact.html"
+  },
+  "why_section": {
+    "kicker": "We were created out of the necesseity to facilitate more water treatment in a growing water scarce region of the Middle East.",
+    "title": "Our roots."
   }
 }
